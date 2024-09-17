@@ -1,0 +1,23 @@
+{
+    "organizations": [],
+    "uuid": "c392dcd3b8a2058582df7f60a16a5625e8b537c5",
+    "author": "Emmie Martin",
+    "url": "https://www.cnbc.com/2018/03/15/bankrate-65-percent-of-americans-save-little-or-nothing.html",
+    "ord_in_thread": 0,
+    "title": "Bankrate: 65% of Americans save little or nothing",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "“The average American has less than $5,000 in a financial account.”  ",
+    "published": "2018-03-15T20:57:00.000+02:00",
+    "crawled": "2018-03-15T20:57:13.021+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "average",
+        "american",
+        "less",
+        "financial",
+        "account"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "organizations": [],
+    "uuid": "15016aa2c57c1d88495dbd94c64f1d9aee56552f",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/01/11/us-house-passes-nsa-spying-bill-after-trump-tweets-cause-confusion.html",
+    "ord_in_thread": 0,
+    "title": "US House passes NSA spying bill after Trump tweets cause confusion",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "The legislation passed 256-164 and split along party lines.  ",
+    "published": "2018-01-11T20:35:00.000+02:00",
+    "crawled": "2018-01-11T21:02:38.002+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "legislation",
+        "passed",
+        "split",
+        "along",
+        "party",
+        "line"
+    ]
+}

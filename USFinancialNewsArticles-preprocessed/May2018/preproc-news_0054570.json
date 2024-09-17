@@ -1,0 +1,33 @@
+{
+    "organizations": [],
+    "uuid": "cd248a4b9cf52bedc73f322b2f649596cf5e9eff",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/gerrymandering-youre-saying-it-wrong/090A5D97-4928-4A08-A800-8305465AC5F5.html",
+    "ord_in_thread": 0,
+    "title": "Gerrymandering: You're Saying it Wrong!",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "The word \"Gerrymander\" was actually named after someone — Elbridge Gerry. But the 18th-century politician pronounced it more like Gary than Gerry. Why don't we? Photo: Library of Congress",
+    "published": "2018-05-24T03:00:00.000+03:00",
+    "crawled": "2018-05-24T17:21:33.043+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "word",
+        "gerrymander",
+        "actually",
+        "named",
+        "someone",
+        "elbridge",
+        "gerry",
+        "politician",
+        "pronounced",
+        "like",
+        "gary",
+        "gerry",
+        "photo",
+        "library",
+        "congress"
+    ]
+}

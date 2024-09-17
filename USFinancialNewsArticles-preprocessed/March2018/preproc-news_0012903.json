@@ -1,0 +1,27 @@
+{
+    "organizations": [],
+    "uuid": "3573f009a894bbfb1f235884d4e32d15e4039a1a",
+    "author": "",
+    "url": "https://www.cnbc.com/video/2018/03/06/trump-tweets-there-are-people-in-the-white-house-that-i-want-to-change.html",
+    "ord_in_thread": 0,
+    "title": "Trump tweets: There are people in the White House \"that I want to change\"",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "Trump tweets: There are people in the White House \"that I want to change\" 3 Hours Ago",
+    "published": "2018-03-06T17:41:00.000+02:00",
+    "crawled": "2018-03-06T21:01:34.002+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "trump",
+        "tweet",
+        "people",
+        "white",
+        "house",
+        "want",
+        "change",
+        "hour",
+        "ago"
+    ]
+}

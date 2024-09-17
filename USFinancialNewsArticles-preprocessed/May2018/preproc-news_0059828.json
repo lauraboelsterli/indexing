@@ -1,0 +1,31 @@
+{
+    "organizations": [],
+    "uuid": "dbf886eac3fbc5e94094a46c3448ad0913b7a361",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/05/29/reuters-america-tesla-crashes-into-parked-police-vehicle-in-california-after-driver-said-it-was-operating-in-autopilot-mode-laguna-beach.html",
+    "ord_in_thread": 0,
+    "title": "TESLA CRASHES INTO PARKED POLICE VEHICLE IN CALIFORNIA AFTER DRIVER SAID IT WAS OPERATING IN AUTOPILOT MODE -LAGUNA BEACH POLICE",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "TESLA CRASHES INTO PARKED POLICE VEHICLE IN CALIFORNIA AFTER DRIVER SAID IT WAS OPERATING IN AUTOPILOT MODE -LAGUNA BEACH POLICE",
+    "published": "2018-05-30T01:21:00.000+03:00",
+    "crawled": "2018-05-30T10:55:51.049+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "tesla",
+        "crash",
+        "parked",
+        "police",
+        "vehicle",
+        "california",
+        "driver",
+        "said",
+        "operating",
+        "autopilot",
+        "mode",
+        "beach",
+        "police"
+    ]
+}

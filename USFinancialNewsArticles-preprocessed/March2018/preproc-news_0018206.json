@@ -1,0 +1,31 @@
+{
+    "organizations": [],
+    "uuid": "a117c366898f4788d09ec0dab8b34f1dfe34bc3a",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/03/09/the-associated-press-cost-of-san-francisco-los-angeles-bullet-train-jumps-20-percent-to-77-billion-opening-date-extended-4-years-to-2033.html",
+    "ord_in_thread": 0,
+    "title": "Cost of San Francisco-Los Angeles bullet train jumps 20 percent to $77 billion, opening date extended 4 years to 2033",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "SACRAMENTO, Calif.(AP) — Cost ofSan Francisco-Los Angelesbullet train jumps20 percentto$77 billion, opening date extended 4 years to 2033.",
+    "published": "2018-03-09T15:30:00.000+02:00",
+    "crawled": "2018-03-09T22:34:13.015+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "sacramento",
+        "ap",
+        "cost",
+        "ofsan",
+        "angelesbullet",
+        "train",
+        "jumps20",
+        "percentto",
+        "billion",
+        "opening",
+        "date",
+        "extended",
+        "year"
+    ]
+}

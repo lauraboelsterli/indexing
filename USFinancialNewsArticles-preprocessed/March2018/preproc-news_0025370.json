@@ -1,0 +1,29 @@
+{
+    "organizations": [],
+    "uuid": "b96a3c594a7bb12153eba553e951a7b86d9d27f6",
+    "author": "",
+    "url": "https://uk.reuters.com/article/rugbyunion-6nations-fixtures/6-nations-fixtures-idUKMTZXEE3CHGITR2",
+    "ord_in_thread": 0,
+    "title": "6 Nations Fixtures",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "  6 Nations   6 Nations     Italy v Scotland (12:30) England v Ireland (14:45) Wales v France (17:00)",
+    "published": "2018-03-12T17:04:00.000+02:00",
+    "crawled": "2018-03-12T17:36:06.004+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "nation",
+        "nation",
+        "italy",
+        "v",
+        "scotland",
+        "england",
+        "v",
+        "ireland",
+        "wale",
+        "v",
+        "france"
+    ]
+}

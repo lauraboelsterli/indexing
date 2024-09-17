@@ -1,0 +1,29 @@
+{
+    "organizations": [],
+    "uuid": "b084b800d1f859cba2889f6cf3599773b439a16f",
+    "author": "Reuters Editorial",
+    "url": "https://www.reuters.com/article/brief-addvalue-technologies-requests-tra/brief-addvalue-technologies-requests-trading-halt-idUSFWN1S105Z",
+    "ord_in_thread": 0,
+    "title": "BRIEF-Addvalue Technologies Requests Trading Halt",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": " Addvalue Technologies Ltd:\n* REQUEST FOR TRADING HALT Source text for Eikon: Further company coverage:\n ",
+    "published": "2018-04-24T13:40:00.000+03:00",
+    "crawled": "2018-04-25T14:57:12.012+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "addvalue",
+        "technology",
+        "ltd",
+        "request",
+        "trading",
+        "halt",
+        "source",
+        "text",
+        "eikon",
+        "company",
+        "coverage"
+    ]
+}

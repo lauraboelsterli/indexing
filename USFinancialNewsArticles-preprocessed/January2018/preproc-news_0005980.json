@@ -1,0 +1,32 @@
+{
+    "organizations": [],
+    "uuid": "c5b0826b5bf6f4974d8a7fe0bf1ecf289070d72a",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/an-israeli-beachfront-condo-in-a-gated-coastal-community/B10A9DBE-A87F-45EE-90F2-01FBB3C4D00C.html",
+    "ord_in_thread": 0,
+    "title": "An Israeli Beachfront Condo in a Gated Coastal Community",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "This 4,068-square-foot beachfront apartment is in a new 10-unit luxury building perched on a cliff overlooking the Mediterranean Sea in the gated coastal community of Arsuf.",
+    "published": "2018-01-03T02:00:00.000+02:00",
+    "crawled": "2018-01-05T16:33:00.014+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "beachfront",
+        "apartment",
+        "new",
+        "luxury",
+        "building",
+        "perched",
+        "cliff",
+        "overlooking",
+        "mediterranean",
+        "sea",
+        "gated",
+        "coastal",
+        "community",
+        "arsuf"
+    ]
+}

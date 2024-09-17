@@ -1,0 +1,24 @@
+{
+    "organizations": [],
+    "uuid": "5f04139b309e1204d22405ec95511b80ca12bf6a",
+    "author": "",
+    "url": "https://www.cnbc.com/video/2018/02/01/general-motors-auto-sales-up-1-point-4-percent.html",
+    "ord_in_thread": 0,
+    "title": "General Motors auto sales up 1.4%",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "General Motors auto sales up 1.4% 4 Hours Ago",
+    "published": "2018-02-01T16:31:00.000+02:00",
+    "crawled": "2018-02-01T18:49:09.014+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "general",
+        "motor",
+        "auto",
+        "sale",
+        "hour",
+        "ago"
+    ]
+}

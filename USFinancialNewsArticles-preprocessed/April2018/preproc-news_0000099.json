@@ -1,0 +1,31 @@
+{
+    "organizations": [],
+    "uuid": "5d61671cfdc19d58685c7046341b53a0d489fe9c",
+    "author": "",
+    "url": "https://www.cnbc.com/video/2018/03/29/baseball-is-hot-again.html",
+    "ord_in_thread": 0,
+    "title": "Baseball is hot again",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "2:47 PM ET Thu, 29 March 2018 CNBC's Eric Chemi reports on opening day for Major League Baseball.",
+    "published": "2018-03-29T21:47:00.000+03:00",
+    "crawled": "2018-04-03T09:18:43.015+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "pm",
+        "et",
+        "thu",
+        "march",
+        "cnbc",
+        "eric",
+        "chemi",
+        "report",
+        "opening",
+        "day",
+        "major",
+        "league",
+        "baseball"
+    ]
+}

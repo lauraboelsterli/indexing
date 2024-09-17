@@ -1,0 +1,27 @@
+{
+    "organizations": [],
+    "uuid": "0ff035fc761be6f8c7dab4df1086592c170079b2",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/02/09/reuters-america-u-s-heating-oil-futures-hit-session-low-of-1-point-8302-a-gallon-the-lowest-since-oct-26.html",
+    "ord_in_thread": 0,
+    "title": "U.S. HEATING OIL FUTURES HIT SESSION LOW OF $1.8302 A GALLON, THE LOWEST SINCE OCT. 26",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "U.S. HEATING OIL FUTURES HIT SESSION LOW OF $1.8302 A GALLON, THE LOWEST SINCE OCT. 26",
+    "published": "2018-02-09T20:45:00.000+02:00",
+    "crawled": "2018-02-10T08:40:57.010+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "heating",
+        "oil",
+        "future",
+        "hit",
+        "session",
+        "low",
+        "gallon",
+        "lowest",
+        "since"
+    ]
+}

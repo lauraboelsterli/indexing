@@ -1,0 +1,30 @@
+{
+    "organizations": [],
+    "uuid": "9eb4d571b4053a5fa6a611dfff4ac0428e6f8ff1",
+    "author": "",
+    "url": "https://www.cnbc.com/video/2018/03/28/bitcoin-goes-bust.html",
+    "ord_in_thread": 0,
+    "title": "Bitcoin goes bust",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "1:09 PM ET Wed, 28 March 2018 CNBC's Jackie DeAngelis reports on the bitcoin trade with the \"Futures Now\" traders.",
+    "published": "2018-03-28T20:09:00.000+03:00",
+    "crawled": "2018-03-30T04:44:38.011+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "pm",
+        "et",
+        "wed",
+        "march",
+        "cnbc",
+        "jackie",
+        "deangelis",
+        "report",
+        "bitcoin",
+        "trade",
+        "future",
+        "trader"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "organizations": [],
+    "uuid": "21569d8a48d29716b5635fedf563f2be0b63f2a4",
+    "author": "",
+    "url": "https://www.cnbc.com/2018/05/31/a-523-monthly-payment-is-the-new-standard-for-car-buyers.html",
+    "ord_in_thread": 0,
+    "title": "A $523 monthly payment is the new standard for car buyers",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "The increase in monthly payments for new vehicles is not surprising given the rise in interest rates.",
+    "published": "2018-05-31T15:30:00.000+03:00",
+    "crawled": "2018-05-31T15:49:16.035+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "increase",
+        "monthly",
+        "payment",
+        "new",
+        "vehicle",
+        "surprising",
+        "given",
+        "rise",
+        "interest",
+        "rate"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "organizations": [],
+    "uuid": "a17c1ce4b0b83ff96749c7557932c0774e52ea9e",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/05/15/reuters-america-oil-prices-fall-in-post-settlement-trade-after-api-data-shows-build-in-u-s-crude-stocks.html",
+    "ord_in_thread": 0,
+    "title": "OIL PRICES FALL IN POST-SETTLEMENT TRADE AFTER API DATA SHOWS BUILD IN U.S. CRUDE STOCKS",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "OIL PRICES FALL IN POST-SETTLEMENT TRADE AFTER API DATA SHOWS BUILD IN U.S. CRUDE STOCKS",
+    "published": "2018-05-16T00:31:00.000+03:00",
+    "crawled": "2018-05-16T08:16:42.003+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "oil",
+        "price",
+        "fall",
+        "trade",
+        "api",
+        "data",
+        "show",
+        "build",
+        "crude",
+        "stock"
+    ]
+}

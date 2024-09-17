@@ -1,0 +1,28 @@
+{
+    "organizations": [],
+    "uuid": "9ebe307844bad14b4d96816905cc4b2c27e0b0b9",
+    "author": "",
+    "url": "https://www.cnbc.com/video/2018/04/27/payment-stocks-charge-up.html",
+    "ord_in_thread": 0,
+    "title": "Payment stocks charge up",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "1:46 PM Processing the payment space, with CNBC's Melissa Lee and the Options Action traders.",
+    "published": "2018-04-27T20:46:00.000+03:00",
+    "crawled": "2018-04-29T11:31:34.000+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "pm",
+        "processing",
+        "payment",
+        "space",
+        "cnbc",
+        "melissa",
+        "lee",
+        "option",
+        "action",
+        "trader"
+    ]
+}

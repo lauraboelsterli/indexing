@@ -1,0 +1,32 @@
+{
+    "organizations": [],
+    "uuid": "052ca50ce7aea08d81b735f63e4913cde204dc3d",
+    "author": "Reuters Editorial",
+    "url": "https://www.reuters.com/article/this-is-a-test-please-ignore-please-igno/this-is-a-test-please-ignore-please-ignore-idUSL4N1SO001",
+    "ord_in_thread": 0,
+    "title": "This is a test - PLEASE IGNORE - PLEASE IGNORE",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "LONDON, May 17 (Reuters) - Test test test test test test\ntest test test (MARK ORFORD 07990 56 6642)\n ",
+    "published": "2018-05-17T19:45:00.000+03:00",
+    "crawled": "2018-05-18T19:55:10.009+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "london",
+        "may",
+        "reuters",
+        "test",
+        "test",
+        "test",
+        "test",
+        "test",
+        "test",
+        "test",
+        "test",
+        "test",
+        "mark",
+        "orford"
+    ]
+}

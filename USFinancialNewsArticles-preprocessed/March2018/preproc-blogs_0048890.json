@@ -1,0 +1,32 @@
+{
+    "organizations": [],
+    "uuid": "0ce5115b7ced9cea1ae5aac091824461b5f33c5d",
+    "author": "",
+    "url": "https://www.cnbc.com/video/2018/03/28/finding-value-3-trades.html",
+    "ord_in_thread": 0,
+    "title": "Finding Value: 3 trades",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "1:00 PM ET Wed, 28 March 2018 The \"Fast Money\" traders give you 3 trades amid a tech tantrum on Wall Street.",
+    "published": "2018-03-28T20:00:00.000+03:00",
+    "crawled": "2018-03-29T09:39:34.026+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "pm",
+        "et",
+        "wed",
+        "march",
+        "fast",
+        "money",
+        "trader",
+        "give",
+        "trade",
+        "amid",
+        "tech",
+        "tantrum",
+        "wall",
+        "street"
+    ]
+}

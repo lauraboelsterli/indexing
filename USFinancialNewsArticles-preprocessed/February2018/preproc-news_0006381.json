@@ -1,0 +1,32 @@
+{
+    "organizations": [],
+    "uuid": "c48e1d9b2159b6eed2f09d24758469afb4a6faa1",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/full-floor-soho-loft-with-an-impressive-outdoor-terrace/8545B49A-55EB-4B1D-9531-88D5F0F8729F.html",
+    "ord_in_thread": 0,
+    "title": "Full-Floor SoHo Loft With an Impressive Outdoor Terrace",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "This new condo building is in the heart of the hip Soho neighborhood in lower Manhattan, with dozens of good restaurants and retail shops.",
+    "published": "2018-01-26T02:00:00.000+02:00",
+    "crawled": "2018-02-01T16:44:35.004+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "new",
+        "condo",
+        "building",
+        "heart",
+        "hip",
+        "soho",
+        "neighborhood",
+        "lower",
+        "manhattan",
+        "dozen",
+        "good",
+        "restaurant",
+        "retail",
+        "shop"
+    ]
+}

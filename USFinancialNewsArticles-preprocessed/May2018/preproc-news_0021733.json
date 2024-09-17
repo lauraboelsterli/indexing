@@ -1,0 +1,26 @@
+{
+    "organizations": [],
+    "uuid": "63f94235cc4db2bef50086431c116137c9d2a2db",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/05/05/reuters-america-highlights-buffett-oracle-of-omaha-on-healthcare-dividends-geico.html",
+    "ord_in_thread": 0,
+    "title": "healthcare, dividends, Geico",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "(Adds comment on healthcare, Geico, using cash for dividends, tariffs)\n ",
+    "published": "2018-05-05T20:35:00.000+03:00",
+    "crawled": "2018-05-05T20:21:46.015+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "add",
+        "comment",
+        "healthcare",
+        "geico",
+        "using",
+        "cash",
+        "dividend",
+        "tariff"
+    ]
+}

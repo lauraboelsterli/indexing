@@ -1,0 +1,25 @@
+{
+    "organizations": [],
+    "uuid": "ddc2771b1efd3770dd3a18fe3685cb8d8fb61f25",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/01/10/reuters-america-feds-bullard-says-inflation-miss-cost-nearly-1-trln-in-nominal-growth.html",
+    "ord_in_thread": 0,
+    "title": "nearly $1 trln in nominal",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "  cost the U.S. economy nearly $1 trillion in nominal growth, St.     economy.\n ",
+    "published": "2018-01-10T20:30:00.000+02:00",
+    "crawled": "2018-01-11T16:14:50.016+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "cost",
+        "economy",
+        "nearly",
+        "trillion",
+        "nominal",
+        "growth",
+        "economy"
+    ]
+}

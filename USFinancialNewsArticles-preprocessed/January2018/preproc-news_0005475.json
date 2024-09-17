@@ -1,0 +1,32 @@
+{
+    "organizations": [],
+    "uuid": "db2173777b7ffb0c59c35b7e2fd944c004c95eb9",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/01/05/the-associated-press-immigrant-acquitted-of-killing-woman-on-san-francisco-pier-is-sentenced-to-time-served-for-gun-charge.html",
+    "ord_in_thread": 0,
+    "title": "Immigrant acquitted of killing woman on San Francisco pier is sentenced to time served for gun charge",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "SAN FRANCISCO(AP) — Immigrant acquitted of killing woman onSan Franciscopier is sentenced to time served for gun charge.",
+    "published": "2018-01-05T15:30:00.000+02:00",
+    "crawled": "2018-01-07T03:42:15.000+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "san",
+        "francisco",
+        "ap",
+        "immigrant",
+        "acquitted",
+        "killing",
+        "woman",
+        "onsan",
+        "franciscopier",
+        "sentenced",
+        "time",
+        "served",
+        "gun",
+        "charge"
+    ]
+}

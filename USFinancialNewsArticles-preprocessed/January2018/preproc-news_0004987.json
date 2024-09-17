@@ -1,0 +1,27 @@
+{
+    "organizations": [],
+    "uuid": "69f80d6369a6575b75eeaec3c7f03e09ef01c54c",
+    "author": "",
+    "url": "https://www.cnbc.com/video/2018/01/03/happy-birthday-bitcoin.html",
+    "ord_in_thread": 0,
+    "title": "Happy Birthday, bitcoin!",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "6:38 PM ET Wed, 3 Jan 2018 Bitcoin's first block was mined on January 3, 2009.",
+    "published": "2018-01-04T01:38:00.000+02:00",
+    "crawled": "2018-01-05T09:27:15.010+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "pm",
+        "et",
+        "wed",
+        "jan",
+        "bitcoin",
+        "first",
+        "block",
+        "mined",
+        "january"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "organizations": [],
+    "uuid": "1db1d7f2ddc670c2d4794a39e96c78402c31fe34",
+    "author": "Ross Kohan",
+    "url": "http://fortune.com/2018/05/25/harvey-weinstein-has-surrendered-to-police/",
+    "ord_in_thread": 0,
+    "title": "Harvey Weinstein Has Surrendered to Police",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "He’s facing charges of rape and sexual assault.",
+    "published": "2018-05-25T23:06:00.000+03:00",
+    "crawled": "2018-05-25T20:22:20.002+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "facing",
+        "charge",
+        "rape",
+        "sexual",
+        "assault"
+    ]
+}

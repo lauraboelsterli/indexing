@@ -1,0 +1,30 @@
+{
+    "organizations": [],
+    "uuid": "df3a08b5229588cfab8a995ea3788e72f1c93bf6",
+    "author": "",
+    "url": "https://uk.reuters.com/article/rugbyleague-super-results/super-league-results-idUKMTZXEE5JZGOMB8",
+    "ord_in_thread": 0,
+    "title": "Super League results",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": " 37 results Reuters Staff 1 results St Helens (22) 38 Wigan (16) 38 Warrington (10) 10 Castleford v Leeds (17:30) Ground: ",
+    "published": "2018-05-19T19:05:00.000+03:00",
+    "crawled": "2018-05-19T19:30:01.028+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "result",
+        "reuters",
+        "staff",
+        "result",
+        "st",
+        "helen",
+        "wigan",
+        "warrington",
+        "castleford",
+        "v",
+        "leeds",
+        "ground"
+    ]
+}

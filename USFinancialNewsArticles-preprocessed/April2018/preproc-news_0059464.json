@@ -1,0 +1,28 @@
+{
+    "organizations": [],
+    "uuid": "ebe1e0b197cb820ea3452e97c0d12f4b7d2c194d",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/04/27/the-associated-press-california-authorities-used-genetic-websites-in-2017-and-misidentified-oregon-man-as-possible-serial-killing-suspect.html",
+    "ord_in_thread": 0,
+    "title": "California authorities used genetic websites in 2017 and misidentified Oregon man as possible serial killing suspect.",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "SACRAMENTO, Calif.(AP) —Californiaauthorities used genetic websites in 2017 and misidentifiedOregonman as possible serial killing suspect. .",
+    "published": "2018-04-27T16:30:00.000+03:00",
+    "crawled": "2018-04-28T11:03:13.005+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "sacramento",
+        "ap",
+        "used",
+        "genetic",
+        "website",
+        "misidentifiedoregonman",
+        "possible",
+        "serial",
+        "killing",
+        "suspect"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "organizations": [],
+    "uuid": "d32f5c2552e57084569fb249f735d78a88095257",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/a-luxury-london-duplex-loft-with-a-very-different-history/17207D1B-E7A5-4135-8B77-EE848CE7F40D.html",
+    "ord_in_thread": 0,
+    "title": "A Luxury London Duplex Loft With a Very Different History",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "This two-level loft sits in the area that was once home to \"the most medieval prison\" in London, otherwise known as \"the clink.\"",
+    "published": "2018-02-14T02:00:00.000+02:00",
+    "crawled": "2018-02-20T16:36:35.006+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "loft",
+        "sits",
+        "area",
+        "home",
+        "medieval",
+        "prison",
+        "london",
+        "otherwise",
+        "known",
+        "clink"
+    ]
+}

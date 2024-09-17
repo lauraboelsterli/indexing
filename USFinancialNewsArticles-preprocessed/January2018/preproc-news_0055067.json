@@ -1,0 +1,30 @@
+{
+    "organizations": [],
+    "uuid": "4c9f1821df50e4623845beed29b5700f2b706c4f",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/01/30/reuters-america-oil-prices-fall-for-third-day-on-inventory-build.html",
+    "ord_in_thread": 0,
+    "title": "prices fall for third day",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "TOKYO, Jan 31 (Reuters) -   a week  \n(Reporting by Aaron Sheldrick and Henning Gloystein; editing by Richard Pullin)",
+    "published": "2018-01-31T02:34:00.000+02:00",
+    "crawled": "2018-01-31T03:40:33.028+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "tokyo",
+        "jan",
+        "reuters",
+        "week",
+        "reporting",
+        "aaron",
+        "sheldrick",
+        "henning",
+        "gloystein",
+        "editing",
+        "richard",
+        "pullin"
+    ]
+}

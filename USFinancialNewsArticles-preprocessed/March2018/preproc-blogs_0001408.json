@@ -1,0 +1,31 @@
+{
+    "organizations": [],
+    "uuid": "97ed60cb84c83530aada2392405d49a9361d6732",
+    "author": "",
+    "url": "https://www.cnbc.com/2018/02/28/walmart-says-it-will-raise-age-restriction-to-21-for-gun-purchases-remove-assault-style-weapons-from-website.html",
+    "ord_in_thread": 0,
+    "title": "Walmart says it will raise age restriction to 21 for gun purchases",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "The company said in its statement that it made the decision in light of recent events and will try to implement this change “as quickly as possible.”  ",
+    "published": "2018-03-01T01:35:00.000+02:00",
+    "crawled": "2018-03-01T01:54:48.024+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "company",
+        "said",
+        "statement",
+        "made",
+        "decision",
+        "light",
+        "recent",
+        "event",
+        "try",
+        "implement",
+        "change",
+        "quickly",
+        "possible"
+    ]
+}

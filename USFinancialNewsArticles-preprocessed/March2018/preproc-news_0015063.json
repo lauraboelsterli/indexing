@@ -1,0 +1,29 @@
+{
+    "organizations": [],
+    "uuid": "71f9b4ccfe0aa5e727bbee81be3aa8979518004e",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/03/01/reuters-america-oil-prices-extend-losses-brent-crude-futures-fall-by-more-than-1-to-session-low-of-63-point-68-a-barrel.html",
+    "ord_in_thread": 0,
+    "title": "OIL PRICES EXTEND LOSSES, BRENT CRUDE FUTURES FALL BY MORE THAN $1 TO SESSION LOW OF $63.68 A BARREL",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "OIL PRICES EXTEND LOSSES, BRENT CRUDE FUTURES FALL BY MORE THAN $1 TO SESSION LOW OF $63.68 A BARREL",
+    "published": "2018-03-01T16:37:00.000+02:00",
+    "crawled": "2018-03-01T18:43:45.053+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "oil",
+        "price",
+        "extend",
+        "loss",
+        "brent",
+        "crude",
+        "future",
+        "fall",
+        "session",
+        "low",
+        "barrel"
+    ]
+}

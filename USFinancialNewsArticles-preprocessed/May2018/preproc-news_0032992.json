@@ -1,0 +1,29 @@
+{
+    "organizations": [],
+    "uuid": "97bce7bb40150cdf72b8a2b4bc7fc50a041f6bfb",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/clashes-over-new-us-embassy-in-jerusalem-leave-dozens-dead/803AEB54-131C-4108-8943-CB34A7F13F13.html",
+    "ord_in_thread": 0,
+    "title": "Clashes Over New U.S. Embassy in Jerusalem Leave Dozens Dead",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "Thousands of protesters were injured at the border between the Gaza Strip and Israel ahead of the opening of the U.S. Embassy in Jerusalem.",
+    "published": "2018-05-14T03:00:00.000+03:00",
+    "crawled": "2018-05-14T20:13:06.037+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "thousand",
+        "protester",
+        "injured",
+        "border",
+        "gaza",
+        "strip",
+        "israel",
+        "ahead",
+        "opening",
+        "embassy",
+        "jerusalem"
+    ]
+}

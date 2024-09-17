@@ -1,0 +1,27 @@
+{
+    "organizations": [],
+    "uuid": "d34700a23cffce0aa70b1ab2809605de5967b6a3",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/05/01/reuters-america-oil-prices-extend-losses-brent-crude-down-1-to-session-low-of-73-point-69-a-barrel.html",
+    "ord_in_thread": 0,
+    "title": "OIL PRICES EXTEND LOSSES, BRENT CRUDE DOWN $1 TO SESSION LOW OF $73.69 A BARREL",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "OIL PRICES EXTEND LOSSES, BRENT CRUDE DOWN $1 TO SESSION LOW OF $73.69 A BARREL",
+    "published": "2018-05-01T17:53:00.000+03:00",
+    "crawled": "2018-05-02T01:36:33.007+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "oil",
+        "price",
+        "extend",
+        "loss",
+        "brent",
+        "crude",
+        "session",
+        "low",
+        "barrel"
+    ]
+}

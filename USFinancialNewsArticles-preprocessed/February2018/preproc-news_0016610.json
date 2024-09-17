@@ -1,0 +1,33 @@
+{
+    "organizations": [],
+    "uuid": "f6379067dfc0d5927d0c78a076ed5777db8af237",
+    "author": "",
+    "url": "https://www.cnbc.com/video/2018/02/08/dow-closes-down-over-1000-points.html",
+    "ord_in_thread": 0,
+    "title": "Dow closes down over 1,000 points",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "Dow closes down over 1,000 points 45 Mins Ago CNBC's Dominic Chu reports on the moves of the Dow Jones as it closes over 1,000 points lower.",
+    "published": "2018-02-08T23:01:00.000+02:00",
+    "crawled": "2018-02-08T23:50:54.001+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "dow",
+        "close",
+        "point",
+        "min",
+        "ago",
+        "cnbc",
+        "dominic",
+        "chu",
+        "report",
+        "move",
+        "dow",
+        "jones",
+        "close",
+        "point",
+        "lower"
+    ]
+}

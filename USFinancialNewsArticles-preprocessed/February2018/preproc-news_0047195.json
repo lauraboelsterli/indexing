@@ -1,0 +1,25 @@
+{
+    "organizations": [],
+    "uuid": "c31bda2237cd2e6fd696823d4a0041ac3da6fada",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/02/21/reuters-america-corrected-update-9-oil-largely-steady-as-dollar-strengthens.html",
+    "ord_in_thread": 0,
+    "title": "CORRECTED-",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "(Corrects paragraph 15 to 1.3 million barrels instead of 1.8 million)\n \nNEW   1.3  ",
+    "published": "2018-02-22T00:15:00.000+02:00",
+    "crawled": "2018-02-22T01:58:24.010+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "corrects",
+        "paragraph",
+        "million",
+        "barrel",
+        "instead",
+        "million",
+        "new"
+    ]
+}

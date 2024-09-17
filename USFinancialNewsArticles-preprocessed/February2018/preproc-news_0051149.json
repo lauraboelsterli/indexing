@@ -1,0 +1,33 @@
+{
+    "organizations": [],
+    "uuid": "67a09ec876a371b6f9eba8be95ba8158e86b2089",
+    "author": "Jake Novak",
+    "url": "https://www.cnbc.com/2018/02/23/morning-top-10.html",
+    "ord_in_thread": 0,
+    "title": "Morning Top 10",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "A daily morning look at the financial stories you need to know to start the day. \nSTOCKS/ECONOMY \n-The yield on the 10-year Treasury bond is down slightly to 2.88 percent. \nDEALS/NO DEALS",
+    "published": "2018-02-23T15:50:00.000+02:00",
+    "crawled": "2018-02-23T16:09:48.017+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "daily",
+        "morning",
+        "look",
+        "financial",
+        "story",
+        "need",
+        "know",
+        "start",
+        "day",
+        "yield",
+        "treasury",
+        "bond",
+        "slightly",
+        "percent",
+        "deal"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "organizations": [],
+    "uuid": "f83abec91667a6a7a9ae2b03272a4f92a6595178",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/04/06/reuters-america-oil-prices-extend-losses-u-s-crude-down-by-more-than-1-to-session-low-of-62-point-49-a-barrel.html",
+    "ord_in_thread": 0,
+    "title": "OIL PRICES EXTEND LOSSES, CRUDE DOWN BY MORE THAN $1 TO SESSION LOW OF $62.49 A BARREL",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "OIL PRICES EXTEND LOSSES, U.S. CRUDE DOWN BY MORE THAN $1 TO SESSION LOW OF $62.49 A BARREL",
+    "published": "2018-04-06T19:00:00.000+03:00",
+    "crawled": "2018-04-07T19:37:33.054+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "oil",
+        "price",
+        "extend",
+        "loss",
+        "crude",
+        "session",
+        "low",
+        "barrel"
+    ]
+}

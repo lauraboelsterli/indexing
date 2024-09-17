@@ -1,0 +1,30 @@
+{
+    "organizations": [],
+    "uuid": "4e3c0afddb52f46fbe8a696a92ba0d47f242824a",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/upper-east-side-corner-apartment-with-views-of-central-park/C30C3B54-42F7-4F0C-BB4B-41B52147743D.html",
+    "ord_in_thread": 0,
+    "title": "Upper East Side Corner Apartment With Views of Central Park",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "The Upper East Side apartment was first listed for $4.25 million. It got a $255,000 price cut after the New Year.",
+    "published": "2018-02-23T02:00:00.000+02:00",
+    "crawled": "2018-02-26T15:43:45.003+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "upper",
+        "east",
+        "side",
+        "apartment",
+        "first",
+        "listed",
+        "million",
+        "got",
+        "price",
+        "cut",
+        "new",
+        "year"
+    ]
+}

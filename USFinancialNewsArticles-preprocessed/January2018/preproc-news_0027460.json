@@ -1,0 +1,30 @@
+{
+    "organizations": [],
+    "uuid": "68526fec45231a98a4651aa8d743947314ab983f",
+    "author": "Reuters Editorial",
+    "url": "https://www.reuters.com/article/usa-debt-frns/u-s-treasury-to-sell-15-bln-in-frns-idUSW1N1OL01G",
+    "ord_in_thread": 0,
+    "title": "U.S. Treasury to sell $15 bln in FRNs",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "WASHINGTON, Jan 18 (Reuters) - For details of the U.S. Treasury’s auction of 2-year floating rate notes next week, see:\nhere\n ",
+    "published": "2018-01-19T00:20:00.000+02:00",
+    "crawled": "2018-01-19T12:43:12.030+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "washington",
+        "jan",
+        "reuters",
+        "detail",
+        "treasury",
+        "auction",
+        "floating",
+        "rate",
+        "note",
+        "next",
+        "week",
+        "see"
+    ]
+}

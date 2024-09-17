@@ -1,0 +1,32 @@
+{
+    "organizations": [],
+    "uuid": "13767445c677c8640205b1b8086b3e527944e14b",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/05/24/us-weekly-jobless-claims-may-19-2018.html",
+    "ord_in_thread": 0,
+    "title": "US weekly jobless claims total 234,000, vs 220,000 expected",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "New applications for U.S. unemployment benefits increased more than expected last week, but remained below a level consistent with a healthy labor market.",
+    "published": "2018-05-24T16:30:00.000+03:00",
+    "crawled": "2018-05-24T15:41:40.014+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "new",
+        "application",
+        "unemployment",
+        "benefit",
+        "increased",
+        "expected",
+        "last",
+        "week",
+        "remained",
+        "level",
+        "consistent",
+        "healthy",
+        "labor",
+        "market"
+    ]
+}

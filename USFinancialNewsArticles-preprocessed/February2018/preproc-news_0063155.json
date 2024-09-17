@@ -1,0 +1,29 @@
+{
+    "organizations": [],
+    "uuid": "0e127e6cf76c735c2dac3bb36a6bebcff14efd81",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/02/27/reuters-america-oil-prices-hold-losses-in-post-settlement-trade-after-api-data-shows-smaller-than-expected-build-in-u-s-crude-inventories.html",
+    "ord_in_thread": 0,
+    "title": "OIL PRICES HOLD LOSSES IN POST-SETTLEMENT TRADE AFTER API DATA SHOWS SMALLER-THAN-EXPECTED BUILD IN U.S. CRUDE INVENTORIES",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "OIL PRICES HOLD LOSSES IN POST-SETTLEMENT TRADE AFTER API DATA SHOWS SMALLER-THAN-EXPECTED BUILD IN U.S. CRUDE INVENTORIES",
+    "published": "2018-02-27T23:31:00.000+02:00",
+    "crawled": "2018-02-28T00:36:00.035+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "oil",
+        "price",
+        "hold",
+        "loss",
+        "trade",
+        "api",
+        "data",
+        "show",
+        "build",
+        "crude",
+        "inventory"
+    ]
+}

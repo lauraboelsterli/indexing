@@ -1,0 +1,33 @@
+{
+    "organizations": [],
+    "uuid": "1890090b0a7c089d0907cc277a30917392f95d64",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/new-triplex-in-manhattan-has-private-garden/35C7AF4E-5090-4063-98DC-D48A827B92A6.html",
+    "ord_in_thread": 0,
+    "title": "New Triplex in Manhattan Has Private Garden",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "Known as Townhouse North, the triplex sits on the first three floors of the building, with a private outdoor garden area on the ground floor.",
+    "published": "2018-01-18T02:00:00.000+02:00",
+    "crawled": "2018-01-24T16:36:01.000+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "known",
+        "townhouse",
+        "north",
+        "triplex",
+        "sits",
+        "first",
+        "three",
+        "floor",
+        "building",
+        "private",
+        "outdoor",
+        "garden",
+        "area",
+        "ground",
+        "floor"
+    ]
+}

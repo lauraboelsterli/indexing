@@ -1,0 +1,31 @@
+{
+    "organizations": [],
+    "uuid": "64d64b7f3ef616464b270eeead76837cf9ee6b45",
+    "author": "Kevin Breuninger",
+    "url": "https://www.cnbc.com/2018/03/19/watch-trump-to-unveil-opioid-plan-including-death-penalty-for-dealers.html",
+    "ord_in_thread": 0,
+    "title": "Watch: Trump to unveil opioid plan including death penalty for dealers",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "Trump is set to unveil a plan to fight the opioid epidemic that includes allowing the death penalty for drug dealers.  ",
+    "published": "2018-03-19T20:38:00.000+02:00",
+    "crawled": "2018-03-19T20:39:35.002+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "trump",
+        "set",
+        "unveil",
+        "plan",
+        "fight",
+        "opioid",
+        "epidemic",
+        "includes",
+        "allowing",
+        "death",
+        "penalty",
+        "drug",
+        "dealer"
+    ]
+}

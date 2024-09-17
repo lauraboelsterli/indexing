@@ -1,0 +1,24 @@
+{
+    "organizations": [],
+    "uuid": "19e38e67c71ae60062d6da459e84405e1617576f",
+    "author": "",
+    "url": "https://www.cnbc.com/video/2018/04/03/theres-a-huge-police-presence-here-reporter.html",
+    "ord_in_thread": 0,
+    "title": "There's a huge police presence here: Reporter",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "There's a huge police presence here: Reporter 8 Hours Ago",
+    "published": "2018-04-04T00:03:00.000+03:00",
+    "crawled": "2018-04-04T01:21:56.019+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "huge",
+        "police",
+        "presence",
+        "reporter",
+        "hour",
+        "ago"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "organizations": [],
+    "uuid": "630d7f0ac7827eb8a5b47ede60b0d6c4c0bec1ff",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/eyewitness-accounts-of-the-kabul-attack/BF544B08-6E55-4C3E-B447-61667CC3C540.html",
+    "ord_in_thread": 0,
+    "title": "Eyewitness Accounts of the Kabul Attack",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "Militants stormed the venerable Inter-Continental hotel in the Afghan capital late Saturday, leading to a deadly, 12-hour siege. Photo: Reuters",
+    "published": "2018-01-22T02:00:00.000+02:00",
+    "crawled": "2018-01-22T10:07:34.007+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "militant",
+        "stormed",
+        "venerable",
+        "hotel",
+        "afghan",
+        "capital",
+        "late",
+        "saturday",
+        "leading",
+        "deadly",
+        "siege",
+        "photo",
+        "reuters"
+    ]
+}

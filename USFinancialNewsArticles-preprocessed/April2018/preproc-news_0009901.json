@@ -1,0 +1,32 @@
+{
+    "organizations": [],
+    "uuid": "ed86d43621f18f9ba63503cabf28384e31d2bbfb",
+    "author": "David Mermelstein",
+    "url": "https://www.wsj.com/articles/where-a-star-was-born-1522877827",
+    "ord_in_thread": 0,
+    "title": "Where a Star Was Born",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "More than any other movie star, Ingrid Bergman enjoyed a life of chapters neatly divided—if not always neatly lived. There was the early Hollywood period;... ",
+    "published": "2018-04-05T01:37:00.000+03:00",
+    "crawled": "2018-04-06T08:42:20.007+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "movie",
+        "star",
+        "ingrid",
+        "bergman",
+        "enjoyed",
+        "life",
+        "chapter",
+        "neatly",
+        "always",
+        "neatly",
+        "lived",
+        "early",
+        "hollywood",
+        "period"
+    ]
+}

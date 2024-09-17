@@ -1,0 +1,31 @@
+{
+    "organizations": [],
+    "uuid": "a98479a7ba18b3baffe9d7ff79cb49f347bb3d9d",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/04/03/the-associated-press-police-say-woman-believed-to-be-shooter-at-youtube-headquarters-is-dead-of-self-inflicted-gunshot-4-wounded.html",
+    "ord_in_thread": 0,
+    "title": "Police say woman believed to be shooter at YouTube headquarters is dead of self-inflicted gunshot; 4 wounded",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "SAN BRUNO, Calif.(AP) — Police say woman believed to be shooter at YouTube headquarters is dead of self-inflicted gunshot; 4 wounded.",
+    "published": "2018-04-04T01:23:00.000+03:00",
+    "crawled": "2018-04-04T01:21:51.011+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "san",
+        "bruno",
+        "ap",
+        "police",
+        "say",
+        "woman",
+        "believed",
+        "shooter",
+        "youtube",
+        "headquarters",
+        "dead",
+        "gunshot",
+        "wounded"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "organizations": [],
+    "uuid": "e9d2bb91a69a55ca7f480455533cdebc8e8e41a5",
+    "author": "Reuters Editorial",
+    "url": "https://www.reuters.com/article/brief-international-press-softcom-ltd-re/brief-international-press-softcom-ltd-requests-trading-halt-idUSFWN1S91CY",
+    "ord_in_thread": 0,
+    "title": "International Press Softcom Ltd Requests Trading Halt",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "May 3 (Reuters) - International Press Softcom Ltd:\n* REQUEST FOR TRADING HALT Source text for Eikon:\nOur ",
+    "published": "2018-05-03T12:59:00.000+03:00",
+    "crawled": "2018-05-04T16:50:05.025+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "may",
+        "reuters",
+        "international",
+        "press",
+        "softcom",
+        "ltd",
+        "request",
+        "trading",
+        "halt",
+        "source",
+        "text",
+        "eikon"
+    ]
+}

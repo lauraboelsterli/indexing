@@ -1,0 +1,27 @@
+{
+    "organizations": [],
+    "uuid": "00a0aa3003a0290de6eace92086e21067ddf278a",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/03/07/noreaster-1700-flights-already-canceled-through-thursday-more-likely.html",
+    "ord_in_thread": 0,
+    "title": "Nor'easter: 1,700+ flights already canceled through Thursday; more likely",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "Airlines have begun canceling flights ahead of the latest nor’easter to menace the Northeast.  ",
+    "published": "2018-03-07T11:19:00.000+02:00",
+    "crawled": "2018-03-07T11:53:45.071+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "airline",
+        "begun",
+        "canceling",
+        "flight",
+        "ahead",
+        "latest",
+        "easter",
+        "menace",
+        "northeast"
+    ]
+}

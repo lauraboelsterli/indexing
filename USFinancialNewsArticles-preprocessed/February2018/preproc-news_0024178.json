@@ -1,0 +1,33 @@
+{
+    "organizations": [],
+    "uuid": "ec5d5d56d6d9845d2d60079cd7d15d595f29a2f9",
+    "author": "",
+    "url": "https://www.cnbc.com/video/2018/02/12/dow-rallies-more-than-400-points.html",
+    "ord_in_thread": 0,
+    "title": "Dow rallies more than 400 points",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "Dow rallies more than 400 points 1 Hour Ago CNBC's Mike Santoli and Bob Pisani wrap up the trading day from the floor of the NYSE.",
+    "published": "2018-02-12T22:23:00.000+02:00",
+    "crawled": "2018-02-12T23:59:17.011+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "dow",
+        "rally",
+        "point",
+        "hour",
+        "ago",
+        "cnbc",
+        "mike",
+        "santoli",
+        "bob",
+        "pisani",
+        "wrap",
+        "trading",
+        "day",
+        "floor",
+        "nyse"
+    ]
+}

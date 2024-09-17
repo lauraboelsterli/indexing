@@ -1,0 +1,33 @@
+{
+    "organizations": [],
+    "uuid": "0aa77fb7de65eeeef210b18f5de794e5d7466249",
+    "author": "",
+    "url": "https://www.cnbc.com/video/2018/03/13/march-madness-begins.html",
+    "ord_in_thread": 0,
+    "title": "March Madness begins",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "March Madness begins 1 Hour Ago CNBC's Eric Chemi reports on the NCAA Tournament and the expected $10 billion in gambling on the games.",
+    "published": "2018-03-13T13:52:00.000+02:00",
+    "crawled": "2018-03-13T15:39:00.011+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "march",
+        "madness",
+        "begin",
+        "hour",
+        "ago",
+        "cnbc",
+        "eric",
+        "chemi",
+        "report",
+        "ncaa",
+        "tournament",
+        "expected",
+        "billion",
+        "gambling",
+        "game"
+    ]
+}

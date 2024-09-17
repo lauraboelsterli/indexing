@@ -1,0 +1,25 @@
+{
+    "organizations": [],
+    "uuid": "3603d095628adc88c5868dd7138f3584b764a5a9",
+    "author": "cnbc.com",
+    "url": "https://www.cnbc.com/2018/02/21/reuters-america-update-9-oil-largely-steady-as-dollar-strengthens.html",
+    "ord_in_thread": 0,
+    "title": "(no title)",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "  (Adds API inventory data and comment, paragraphs 15-17)\nNEW   1.8  ",
+    "published": "2018-02-22T00:05:00.000+02:00",
+    "crawled": "2018-02-22T01:58:26.000+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "add",
+        "api",
+        "inventory",
+        "data",
+        "comment",
+        "paragraph",
+        "new"
+    ]
+}

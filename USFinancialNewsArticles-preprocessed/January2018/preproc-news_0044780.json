@@ -1,0 +1,31 @@
+{
+    "organizations": [],
+    "uuid": "c1ca5691b2537baa135b44985531efd5ee4173d8",
+    "author": "Mike Bird",
+    "url": "https://www.wsj.com/articles/euro-breaks-1-25-for-first-time-in-over-three-years-1516892834",
+    "ord_in_thread": 0,
+    "title": "Euro Breaks $1.25 for First Time in Over Three Years",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "The euro’s rapid rise against the U.S. dollar continued Thursday, as the common currency climbed by as much as 1% to break $1.25 for the first time in... ",
+    "published": "2018-01-25T18:07:00.000+02:00",
+    "crawled": "2018-01-25T23:33:08.026+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "euro",
+        "rapid",
+        "rise",
+        "dollar",
+        "continued",
+        "thursday",
+        "common",
+        "currency",
+        "climbed",
+        "much",
+        "break",
+        "first",
+        "time"
+    ]
+}

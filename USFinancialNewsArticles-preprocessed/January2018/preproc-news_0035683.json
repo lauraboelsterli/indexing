@@ -1,0 +1,33 @@
+{
+    "organizations": [],
+    "uuid": "53903a61b6f0357b239df2be02ea0628649a39bd",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/historic-london-townhouse-that-took-a-recent-trip-to-hollywood/6DE56BF0-E50F-4431-99A5-1452BE6B852B.html",
+    "ord_in_thread": 0,
+    "title": "Historic London Townhouse That Took a Recent Trip to Hollywood",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "The townhouse contains a number of period details such as a Portland stone facade, a cantilevered stone staircase and ceilings as high as four meters.",
+    "published": "2018-01-18T02:00:00.000+02:00",
+    "crawled": "2018-01-22T15:31:14.011+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "townhouse",
+        "contains",
+        "number",
+        "period",
+        "detail",
+        "portland",
+        "stone",
+        "facade",
+        "cantilevered",
+        "stone",
+        "staircase",
+        "ceiling",
+        "high",
+        "four",
+        "meter"
+    ]
+}

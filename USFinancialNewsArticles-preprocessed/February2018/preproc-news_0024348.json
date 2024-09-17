@@ -1,0 +1,32 @@
+{
+    "organizations": [],
+    "uuid": "01d7970c7488ac42bb644672b357c9ecea0951f9",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/spacex-launches-falcon-heavy-rocket/B5D6C3A9-9BBC-47FA-B40F-6D2304567D3F.html",
+    "ord_in_thread": 0,
+    "title": "SpaceX Launches Falcon Heavy Rocket",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "SpaceX successfully launched the Falcon Heavy rocket from Kennedy Space Center in Cape Canaveral, Fla. on Tuesday. Photo: AP",
+    "published": "2018-02-06T02:00:00.000+02:00",
+    "crawled": "2018-02-07T01:29:07.000+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "spacex",
+        "successfully",
+        "launched",
+        "falcon",
+        "heavy",
+        "rocket",
+        "kennedy",
+        "space",
+        "center",
+        "cape",
+        "canaveral",
+        "tuesday",
+        "photo",
+        "ap"
+    ]
+}

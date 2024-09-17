@@ -1,0 +1,33 @@
+{
+    "organizations": [],
+    "uuid": "3886b06a04264816d17e4ebe16726faacd2669d3",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/a-renaissance-style-mansion-in-an-exclusive-spot-in-florida/75ECD62A-ADAB-41D0-8AD6-C3E1C0AE8A5F.html",
+    "ord_in_thread": 0,
+    "title": "A Renaissance-Style Mansion in an Exclusive Spot in Florida",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "Serenissima is located on the southern end of Longboat Key, within the secure gates of the Longboat Key Club, a triple-A, four-diamond private beachfront resort.",
+    "published": "2018-02-23T02:00:00.000+02:00",
+    "crawled": "2018-02-27T15:39:40.000+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "serenissima",
+        "located",
+        "southern",
+        "end",
+        "longboat",
+        "key",
+        "within",
+        "secure",
+        "gate",
+        "longboat",
+        "key",
+        "club",
+        "private",
+        "beachfront",
+        "resort"
+    ]
+}

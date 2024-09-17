@@ -1,0 +1,32 @@
+{
+    "organizations": [],
+    "uuid": "ac6afacbb046f108cbd53a677ccbcb77e113d19c",
+    "author": "",
+    "url": "https://www.cnbc.com/2018/05/29/mortgage-rates-drop-but-borrowers-are-not-impressed.html",
+    "ord_in_thread": 0,
+    "title": "Mortgage rates drop, but borrowers are not impressed",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "A drop in mortgage interest rates did nothing to spur borrowers to action. Applications for to both refinance and to purchase a home fell for the week.",
+    "published": "2018-05-30T14:00:00.000+03:00",
+    "crawled": "2018-05-30T15:05:02.012+03:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "drop",
+        "mortgage",
+        "interest",
+        "rate",
+        "nothing",
+        "spur",
+        "borrower",
+        "action",
+        "application",
+        "refinance",
+        "purchase",
+        "home",
+        "fell",
+        "week"
+    ]
+}

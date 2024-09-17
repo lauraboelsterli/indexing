@@ -1,0 +1,31 @@
+{
+    "organizations": [],
+    "uuid": "9f6d3b97242a494e550d6c45f32014bfb5746a12",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/film-clip-peter-rabbit/85CDFC7C-7130-4972-BFA4-B68F44747D21.html",
+    "ord_in_thread": 0,
+    "title": "Film Clip: 'Peter Rabbit'",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "Watch a clip from the animated movie \"Peter Rabbit,\" starring the voice of James Corden. Photo: Sony Pictures",
+    "published": "2018-02-08T02:00:00.000+02:00",
+    "crawled": "2018-02-09T18:44:38.008+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "watch",
+        "clip",
+        "animated",
+        "movie",
+        "peter",
+        "rabbit",
+        "starring",
+        "voice",
+        "james",
+        "corden",
+        "photo",
+        "sony",
+        "picture"
+    ]
+}

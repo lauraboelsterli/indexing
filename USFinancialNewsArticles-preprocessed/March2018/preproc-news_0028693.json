@@ -1,0 +1,30 @@
+{
+    "organizations": [],
+    "uuid": "82f1a1113ca2edab827ab019896b1cf8ab813a09",
+    "author": "wsj.com",
+    "url": "http://live.wsj.com/video/beachfront-villa-on-kenya-indian-ocean/3AA014D3-D822-4C33-B125-C58F30517347.html",
+    "ord_in_thread": 0,
+    "title": "Beachfront Villa on Kenya's Indian Ocean",
+    "locations": [],
+    "highlightText": "",
+    "language": "english",
+    "persons": [],
+    "text": "Villa Ahana has an open-air central courtyard with palm trees and a handsome terrace that overlooks the private swimming pool.",
+    "published": "2018-03-09T02:00:00.000+02:00",
+    "crawled": "2018-03-13T15:38:32.047+02:00",
+    "highlightTitle": "",
+    "preprocessed_text": [
+        "villa",
+        "ahana",
+        "central",
+        "courtyard",
+        "palm",
+        "tree",
+        "handsome",
+        "terrace",
+        "overlook",
+        "private",
+        "swimming",
+        "pool"
+    ]
+}
