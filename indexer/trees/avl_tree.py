@@ -51,6 +51,8 @@ class AVLTreeIndex(BinarySearchTreeIndex):
         
         # TODO: implement the right rotation for AVL Tree
 
+        # smaller than problem child and bigger than left child: left right rotation
+
         A = y.right 
         y.right = A.left
         A.left = y 
@@ -81,7 +83,8 @@ class AVLTreeIndex(BinarySearchTreeIndex):
         """
         
         # TODO: implement the left rotation for AVL Tree
-        
+
+        #  left left rotation
         A = x.left 
         x.left = A.right
         A.right = x 
@@ -113,6 +116,7 @@ class AVLTreeIndex(BinarySearchTreeIndex):
         # TODO: Implement a proper recursive insert function for an
         # AVL tree including updating height and balancing if a
         # new node is inserted. 
+       
         
         # TODO: Remove or comment out this line once you've implemented
         # the AVL insert functionality 

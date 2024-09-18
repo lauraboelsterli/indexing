@@ -5,6 +5,17 @@ from indexer.trees.bst_index import BinarySearchTreeIndex
 from indexer.util.timer import timer
 from indexer.abstract_index import AbstractIndex
 
+# importing all libraries he showed us in class --laura
+import os
+import pstats
+import string
+import time 
+import random 
+import pickle
+import cProfile
+
+
+
 def index_files(path: str, index: AbstractIndex) -> None:
     # path should contain the location of the news articles you want to parse
     if path is not None:
