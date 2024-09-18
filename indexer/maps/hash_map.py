@@ -1,10 +1,10 @@
 from indexer.abstract_index import AbstractIndex
 
-import json 
-import os 
+import json
+import os
 
-folder_path = ["USFinancialNewsArticles-preprocessed/April2018", "USFinancialNewsArticles-preprocessed/February2018", 
-               "USFinancialNewsArticles-preprocessed/January2018", "USFinancialNewsArticles-preprocessed/March2018", 
+folder_path = ["USFinancialNewsArticles-preprocessed/April2018", "USFinancialNewsArticles-preprocessed/February2018",
+               "USFinancialNewsArticles-preprocessed/January2018", "USFinancialNewsArticles-preprocessed/March2018",
                "USFinancialNewsArticles-preprocessed/May2018"]
 
 hashmap = {}
@@ -20,21 +20,28 @@ for folder in folder_path:
                     # for word in preprocessed_text:
                     hashmap[file] = preprocessed_text
 
-print(hashmap.keys())[:5]
+first_five_keys = list(hashmap.keys())[:5]
 
+# Print the first 5 keys
+for key in first_five_keys:
+    print(key)
 
 
 class HashMapIndex(AbstractIndex):
-    
     def __init__(self):
         super().__init__()
         self.hash_map = {}
 
     def add(self, term, document_id):
-        pass
+        if term in self.hash_map:
+            if document_id not in self.hash_map:
+                self.hash_map[term].append(document_id) # should we append here or should we replace
+        else:
+            self.hash_map[term] = [document_id]
 
     def search(self, term):
-        pass
+        return self.hash_map.get(term, [])
 
     def remove(self, term):
-        pass
+        if term in self.hash_map:
+            del self.hash_map[term]
