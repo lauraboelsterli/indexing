@@ -51,7 +51,25 @@ class AVLTreeIndex(BinarySearchTreeIndex):
         
         # TODO: implement the right rotation for AVL Tree
 
-        pass
+        A = y.right 
+        y.right = A.left
+        A.left = y 
+
+        if y == self.root:
+            self.root = A 
+        else: 
+            # parent of x???
+            if y.root.right == y:
+                y.root.right = A 
+            else:
+                y.root.left == A
+
+        # Update heights 
+        y.height = 1 + max(self._height(y.left), self._height(y.right))
+        A.height = 1 + max(self._height(A.left), self._height(A.right))
+
+        
+
 
     def _rotate_left(self, x: AVLNode) -> AVLNode:
         """
@@ -64,7 +82,23 @@ class AVLTreeIndex(BinarySearchTreeIndex):
         
         # TODO: implement the left rotation for AVL Tree
         
-        pass
+        A = x.left 
+        x.left = A.right
+        A.right = x 
+
+        if x == self.root:
+            self.root = A 
+        else: 
+            # parent of x???
+            if x.root.left == x:
+                x.root.left = A 
+            else:
+                x.root.right == A
+
+        x.height = 1 + max(self._height(x.left), self._height(x.right)) 
+        A.height = 1 + max(self._height(A.left), self._height(A.right))
+        
+
 
     def _insert_recursive(self, current: Optional[AVLNode], key: Any, value: Any) -> AVLNode:
         """
