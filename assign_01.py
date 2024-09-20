@@ -17,27 +17,20 @@ import cProfile
 
 
 def index_files(path: str, index: AbstractIndex) -> None:
-    # path should contain the location of the news articles you want to parse
-    if path is not None:
-        print(f'path = {path}')
-    
-    # a sample json news article.  assume this is in a file named sample.json
-    sample_filename = "sample.json"
-    sample_json = '''
-        {
-            "title": "Some article",
-            "text": "here is the text of a sample news article",
-            "preprocessed_text": ["here", "text", "sample", "news", "article"]
-        }
-    '''
-    
-    # extract the preprocessed_text words and add them to the index with
-    # sample.json as the file name
-    the_json = json.loads(sample_json)
-    words = the_json["preprocessed_text"]
-    
-    for word in words:
-        index.insert(word, sample_filename)
+
+    for folder in path:
+        # Loop through all files in the folder
+        for filename in os.listdir(folder):
+            file_path = os.path.join(folder, filename)  # Get full path of the file
+            if os.path.isfile(file_path):  # Ensure it's a file and not a subdirectory
+                with open(file_path, 'r') as file:  # Open the file
+                    # data = json.load(file)  
+                    data = json.load(file)
+                    words = data["preprocessed_text"]
+                    
+                    for word in words:
+                        index.insert(word, filename)
+
         
 @timer
 def loopy_loop():
@@ -47,17 +40,25 @@ def loopy_loop():
 def main():
     # You'll need to change this to be the absolute path to the root folder
     # of the dataset
-    data_directory = "/location/of/downloaded/dataset/of/newsarticles"
-       
+    # data_directory = '/Users/lauraboelsterli/Downloads/DS4300/24f-a01-indexit-laurab/USFinancialNewsArticles-preprocessed'
+    path = ["USFinancialNewsArticles-preprocessed/April2018", "USFinancialNewsArticles-preprocessed/February2018",
+            "USFinancialNewsArticles-preprocessed/January2018", "USFinancialNewsArticles-preprocessed/March2018",
+            "USFinancialNewsArticles-preprocessed/May2018"]   
     # Here, we are creating a sample binary search tree index 
     # and sending it to the index_files function
     bst_index = BinarySearchTreeIndex()    
-    index_files(data_directory, bst_index)
-    
+    index_files(path, bst_index)
+    # function that implements search function
+    bst_index.search('voyaging')
+
+
     # As a gut check, we are printing the keys that were added to the 
     # index in order. 
-    print(bst_index.get_keys_in_order())
+    # print(bst_index.get_keys_in_order())
     
+    # hashmap_idx = HashMapIndex()
+    # index_files(path, hashmap_idx)
+
     
     # quick demo of how to use the timing decorator included
     # in indexer.util

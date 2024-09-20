@@ -38,10 +38,6 @@ for folder in folder_path:
         if os.path.isfile(file_path):  # Ensure it's a file and not a subdirectory
             with open(file_path, 'r') as file:  # Open the file
                 data = json.load(file)  
-                # preprocessed_text = data.get("preprocessed_text")
-                # if preprocessed_text:
-                #     # for word in preprocessed_text:
-                #     hashmap[file] = preprocessed_text
                 preprocessed_text = data.get("preprocessed_text")
                 if preprocessed_text:
                     # Add each word in the preprocessed text to the hash map with the filename
