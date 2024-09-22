@@ -5,6 +5,7 @@ from indexer.abstract_index import AbstractIndex
 import json
 import os
 
+
 class UnsortedList(AbstractIndex):
     def __init__(self):
         super().__init__()
@@ -14,7 +15,6 @@ class UnsortedList(AbstractIndex):
         for i in range(len(self.unsorted_list)):
             if self.unsorted_list[i][0] == term:
                 # indexing should be [i][1] instead, right? -- note by laura 
-                # if document_id not in self.unsorted_list[1][1]:
                 if document_id not in self.unsorted_list[i][1]:
                     # self.unsorted_list[1][1].append(document_id)
                     self.unsorted_list[i][1].append(document_id)
@@ -38,7 +38,7 @@ folder_path = ["USFinancialNewsArticles-preprocessed/April2018", "USFinancialNew
                "USFinancialNewsArticles-preprocessed/May2018"]
 
 
-# note: he said that we should not go through all documents witht he unsorted list since it would take too long 
+# note: he said that we should not go through all documents with the unsorted list since it would take too long
 # so make the size of the search smaller --laura 
 
 # in-class clarification: tracking time to search documents not time to parse through documents -- note by laura 

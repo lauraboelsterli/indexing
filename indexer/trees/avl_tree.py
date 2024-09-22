@@ -3,6 +3,7 @@ from typing import List, Optional, Any
 from indexer.trees.bst_index import BinarySearchTreeIndex
 from indexer.trees.avl_node import AVLNode
 
+
 class AVLTreeIndex(BinarySearchTreeIndex):
     """
     An AVL Tree implementation of an index that maps a key to a list of values.
@@ -63,7 +64,6 @@ class AVLTreeIndex(BinarySearchTreeIndex):
 
         return C
 
-
     def _rotate_left(self, x: AVLNode) -> AVLNode:
         """
         Rotate the given node `x` to the left.
@@ -86,7 +86,6 @@ class AVLTreeIndex(BinarySearchTreeIndex):
         
         return A
 
-
     def _insert_recursive(self, current: Optional[AVLNode], key: Any, value: Any) -> AVLNode:
         """
         Recursively inserts a new node with the given key and value into the AVL tree.
@@ -99,8 +98,7 @@ class AVLTreeIndex(BinarySearchTreeIndex):
         """
         # TODO: Implement a proper recursive insert function for an
         # AVL tree including updating height and balancing if a
-        # new node is inserted. 
-       
+        # new node is inserted.
         
         # TODO: Remove or comment out this line once you've implemented
         # the AVL insert functionality 
@@ -123,7 +121,7 @@ class AVLTreeIndex(BinarySearchTreeIndex):
         # return current_node
 
         # Check balance and perform rotations if necessary
-        balance = abs(self._height(current.left) - self._height(current.right))  # idk why this is unreachable, no idea
+        balance = abs(self._height(current.left) - self._height(current.right))
 
         # Left-Left Case
         if balance > 1 and key < current.left.key:

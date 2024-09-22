@@ -3,6 +3,7 @@ from indexer.abstract_index import AbstractIndex
 import json
 import os
 
+
 class HashMapIndex(AbstractIndex):
     def __init__(self):
         super().__init__()
@@ -22,11 +23,10 @@ class HashMapIndex(AbstractIndex):
         if term in self.hash_map:
             del self.hash_map[term]
 
+
 folder_path = ["USFinancialNewsArticles-preprocessed/April2018", "USFinancialNewsArticles-preprocessed/February2018",
                "USFinancialNewsArticles-preprocessed/January2018", "USFinancialNewsArticles-preprocessed/March2018",
                "USFinancialNewsArticles-preprocessed/May2018"]
-
-# hashmap = {}
 
 # initialize the HashMapIndex class
 hash = HashMapIndex()
@@ -43,10 +43,3 @@ for folder in folder_path:
                     # Add each word in the preprocessed text to the hash map with the filename
                     for word in preprocessed_text:
                         hash.add(word, filename) 
-
-
-# first_five_keys = list(hashmap.keys())[:5]
-
-# # Print the first 5 keys
-# for key in first_five_keys:
-#     print(key)

@@ -33,7 +33,6 @@ class BSTNode:
         """
         self.values.append(value)
 
-        
     def get_values_count(self):
         """
         Returns the number of values stored in the node.

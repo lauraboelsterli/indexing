@@ -3,6 +3,7 @@ from typing import Optional, Any, List, Generator
 from indexer.abstract_index import AbstractIndex
 from indexer.trees.bst_node import BSTNode
 
+
 class BinarySearchTreeIndex(AbstractIndex):
     """
     A binary search tree implementation of an index.
