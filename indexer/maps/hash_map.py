@@ -53,22 +53,4 @@ class HashMapIndex(AbstractIndex):
 #         self.root = self._insert_recursive(self.root, key, value)
 
 
-# folder_path = ["USFinancialNewsArticles-preprocessed/April2018", "USFinancialNewsArticles-preprocessed/February2018",
-#                "USFinancialNewsArticles-preprocessed/January2018", "USFinancialNewsArticles-preprocessed/March2018",
-#                "USFinancialNewsArticles-preprocessed/May2018"]
 
-# # initialize the HashMapIndex class
-# hash = HashMapIndex()
-
-# for folder in folder_path:
-#     # Loop through all files in the folder
-#     for filename in os.listdir(folder):
-#         file_path = os.path.join(folder, filename)  # Get full path of the file
-#         if os.path.isfile(file_path):  # Ensure it's a file and not a subdirectory
-#             with open(file_path, 'r') as file:  # Open the file
-#                 data = json.load(file)  
-#                 preprocessed_text = data.get("preprocessed_text")
-#                 if preprocessed_text:
-#                     # Add each word in the preprocessed text to the hash map with the filename
-#                     for word in preprocessed_text:
-#                         hash.add(word, filename) 

@@ -21,6 +21,9 @@ class AVLTreeIndex(BinarySearchTreeIndex):
        super().__init__()
        self.root: Optional[AVLNode] = None 
     
+    def __str__(self):
+        return 'hello world'
+    
     def _height(self, node: Optional[AVLNode]) -> int:
         """
         Calculate the height of the given AVLNode.
