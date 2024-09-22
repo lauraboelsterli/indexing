@@ -33,30 +33,30 @@ class UnsortedList(AbstractIndex):
         self.unsorted_list = [(key, value) for key,value in self.unsorted_list if key != term]
         
 
-folder_path = ["USFinancialNewsArticles-preprocessed/April2018", "USFinancialNewsArticles-preprocessed/February2018",
-               "USFinancialNewsArticles-preprocessed/January2018", "USFinancialNewsArticles-preprocessed/March2018",
-               "USFinancialNewsArticles-preprocessed/May2018"]
+# folder_path = ["USFinancialNewsArticles-preprocessed/April2018", "USFinancialNewsArticles-preprocessed/February2018",
+#                "USFinancialNewsArticles-preprocessed/January2018", "USFinancialNewsArticles-preprocessed/March2018",
+#                "USFinancialNewsArticles-preprocessed/May2018"]
 
 
-# note: he said that we should not go through all documents with the unsorted list since it would take too long
-# so make the size of the search smaller --laura 
+# # note: he said that we should not go through all documents with the unsorted list since it would take too long
+# # so make the size of the search smaller --laura 
 
-# in-class clarification: tracking time to search documents not time to parse through documents -- note by laura 
+# # in-class clarification: tracking time to search documents not time to parse through documents -- note by laura 
 
 
-unsorted = UnsortedList()
+# unsorted = UnsortedList()
 
-for folder in folder_path:
-    # Loop through all files in the folder
-    for filename in os.listdir(folder):
-        # get full path of the file
-        file_path = os.path.join(folder, filename)  
-        if os.path.isfile(file_path):  # Ensure it's a file and not a subdirectory
-            with open(file_path, 'r') as file: 
-                data = json.load(file)  
-                preprocessed_text = data.get("preprocessed_text")
-                if preprocessed_text:
-                    for word in preprocessed_text:
-                        unsorted.add(word, filename) 
+# for folder in folder_path:
+#     # Loop through all files in the folder
+#     for filename in os.listdir(folder):
+#         # get full path of the file
+#         file_path = os.path.join(folder, filename)  
+#         if os.path.isfile(file_path):  # Ensure it's a file and not a subdirectory
+#             with open(file_path, 'r') as file: 
+#                 data = json.load(file)  
+#                 preprocessed_text = data.get("preprocessed_text")
+#                 if preprocessed_text:
+#                     for word in preprocessed_text:
+#                         unsorted.add(word, filename) 
 
 
