@@ -20,6 +20,8 @@ def index_files(path: str, index: AbstractIndex) -> None:
     for folder in path:
         # Loop through all files in the folder
         for filename in os.listdir(folder):
+            # print("file test")
+            print(filename)
             file_path = os.path.join(folder, filename)  # Get full path of the file
             if os.path.isfile(file_path):  # Ensure it's a file and not a subdirectory
                 with open(file_path, 'r') as file:  # Open the file
@@ -40,12 +42,15 @@ def loopy_loop():
 
 
 def main():
+    print("start")
     # You'll need to change this to be the absolute path to the root folder
     # of the dataset
     # data_directory = '/Users/lauraboelsterli/Downloads/DS4300/24f-a01-indexit-laurab/USFinancialNewsArticles-preprocessed'
-    path = ["USFinancialNewsArticles-preprocessed/April2018", "USFinancialNewsArticles-preprocessed/February2018",
-        "USFinancialNewsArticles-preprocessed/January2018", "USFinancialNewsArticles-preprocessed/March2018",
-        "USFinancialNewsArticles-preprocessed/May2018"]
+
+    # path = ["USFinancialNewsArticles-preprocessed/April2018", "USFinancialNewsArticles-preprocessed/February2018",
+    #     "USFinancialNewsArticles-preprocessed/January2018", "USFinancialNewsArticles-preprocessed/March2018",
+    #     "USFinancialNewsArticles-preprocessed/May2018"]
+    path = ["test_data/folder1"]
 
     # for the unsorted list (currently using time to measure how long did it take)
     # unsorted = UnsortedList()
@@ -64,14 +69,18 @@ def main():
     hashmap = HashMapIndex()
     index_files(path, hashmap)
     # Create a list of 100,000 random search terms
+    print("test")
     all_terms = [term for term, _ in hashmap.hash_map]
-    search_terms = random.choices(all_terms, k=100000)
+    print("test finish")
+    search_terms = random.choices(all_terms, k=10)
     # Measure the time taken for searching 100,000 words
     start_time = time.time()
     for term in search_terms:
+        print("5")
         hashmap.search(term)
     end_time = time.time()
-    print(f"Time taken to search 100,000 words for the hashmap: {end_time - start_time:.2f} seconds")
+
+    #print(f"Time taken to search 100,000 words for the hashmap: {end_time - start_time:.2f} seconds")
 
     # # for the avl tree
     # avl_tree = AVLTreeIndex()

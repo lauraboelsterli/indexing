@@ -1,5 +1,5 @@
 from indexer.abstract_index import AbstractIndex
-
+from typing import Any, List, Generator 
 import json
 import os
 
@@ -30,12 +30,14 @@ class HashMapIndex(AbstractIndex):
             del self.hash_map[term]
 
 
-    def __iter__(self) -> Generator[BSTNode, None, None]:
+    def __iter__(self) -> Generator[Any, None, None]:
             """
             Returns an iterator over the terms (keys) in the hash map.
             Yields each term (key) in the hash_map.
-            """
-            yield self.hash_map.keys()
+            # """
+            # yield self.hash_map.keys()
+            for key in self.hash_map:
+                yield key 
     
 # def insert(self, key: Any, value: Any) -> None:
 #         """
