@@ -1,6 +1,7 @@
 from typing import Any
 from indexer.trees.bst_node import BSTNode
 
+
 class AVLNode(BSTNode):
     """
     AVLNode class represents a node in an AVL tree. It inherits from BSTNode

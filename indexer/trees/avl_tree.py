@@ -19,10 +19,7 @@ class AVLTreeIndex(BinarySearchTreeIndex):
     
     def __init__(self):
        super().__init__()
-       self.root: Optional[AVLNode] = None 
-    
-    def __str__(self):
-        return 'hello world'
+       self.root: Optional[AVLNode] = None
     
     def _height(self, node: Optional[AVLNode]) -> int:
         """
@@ -141,6 +138,8 @@ class AVLTreeIndex(BinarySearchTreeIndex):
         elif key == current.key:
             current.add_value(value)
         # return current_node
+
+        current.height = 1 + max(self._height(current.left), self._height(current.right))
 
         # Check balance and perform rotations if necessary
         balance = abs(self._height(current.left) - self._height(current.right))

@@ -37,10 +37,6 @@ def loopy_loop():
     total = sum((x for x in range(0, 1000000)))
 
 
-
-
-
-
 def main():
     print("start")
 
@@ -82,7 +78,12 @@ def main():
 
     # # for the avl tree
     avl_tree = AVLTreeIndex()
-    print(avl_tree)
+    avl_tree.insert(3, "a")
+    avl_tree.insert(2, "b")
+    avl_tree.insert(1, "c")
+    print(avl_tree.tree_height())
+    # print(avl_tree.height)
+    print(avl_tree.get_keys_in_order())
     
     # index_files(path, avl_tree)
     # # Create a list of 100,000 random search terms
@@ -100,8 +101,6 @@ def main():
     # # and sending it to the index_files function
     # bst_index = BinarySearchTreeIndex()    
     # index_files(path, bst_index)
-    # function that implements search function
-    # bst_index.search('voyaging')
 
     # As a gut check, we are printing the keys that were added to the 
     # index in order. 
