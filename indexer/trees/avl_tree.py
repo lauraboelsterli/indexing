@@ -57,15 +57,24 @@ class AVLTreeIndex(BinarySearchTreeIndex):
 
         # smaller than problem child and bigger than left child: left right rotation
 
-        C = y.right 
-        y.right = C.left
-        C.left = y 
+        # C = y.right 
+        # y.right = C.left
+        # C.left = y
+
+
+        x = y.left
+        T2 = x.right
+        x.right = y
+
+        y.left = T2 
 
         # Update heights 
+        # y.height = 1 + max(self._height(y.left), self._height(y.right))
+        # C.height = 1 + max(self._height(C.left), self._height(C.right))
         y.height = 1 + max(self._height(y.left), self._height(y.right))
-        C.height = 1 + max(self._height(C.left), self._height(C.right))
+        x.height = 1 + max(self._height(x.left), self._height(x.right))
 
-        return C
+        return x
 
     def _rotate_left(self, x: AVLNode) -> AVLNode:
         """
@@ -78,16 +87,26 @@ class AVLTreeIndex(BinarySearchTreeIndex):
         
         # TODO: implement the left rotation for AVL Tree
 
-        # left child of x 
-        A = x.left 
-        # make right child of A the left child of x 
-        x.left = A.right
-        A.right = x 
+        # # left child of x 
+        # A = x.left 
+        # # make right child of A the left child of x 
+        # x.left = A.right
+        # A.right = x 
         
-        x.height = 1 + max(self._height(x.left), self._height(x.right)) 
-        A.height = 1 + max(self._height(A.left), self._height(A.right))
+        # x.height = 1 + max(self._height(x.left), self._height(x.right)) 
+        # A.height = 1 + max(self._height(A.left), self._height(A.right))
+        y = x.right
+        T2 = y.left
+
+        y.left = x
+        x.right = T2
+
+        x.height = 1 + max(self._height(x.left), self._height(x.right))
+        y.height = 1 + max(self._height(y.left), self._height(y.right))
+
+        return y
         
-        return A
+        # return A
 
     def _insert_recursive(self, current: Optional[AVLNode], key: Any, value: Any) -> AVLNode:
         """
