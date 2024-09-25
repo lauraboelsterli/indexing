@@ -34,11 +34,6 @@ def index_files(path: str, index: AbstractIndex) -> None:
                     for word in words:
                         index.insert(word, filename)
         
-<<<<<<< HEAD
-@timer
-def loopy_loop():
-    total = sum((x for x in range(0, 1000000)))
-=======
 # @timer
 # def loopy_loop():
 #     total = sum((x for x in range(0, 1000000)))
@@ -48,7 +43,6 @@ def searchtime(structure, search_terms):
     for term in search_terms:
         structure.search(term)
 
->>>>>>> 93af2c7f90 (fixed the search functions and the hashmap data structure and how we get keys for each structure in main)
 
 
 def main():
@@ -89,17 +83,13 @@ def main():
     searchtime(hashmap, search_terms)
 
     # # for the avl tree
-    avl_tree = AVLTreeIndex()
-<<<<<<< HEAD
-    avl_tree.insert(3, "a")
-    avl_tree.insert(2, "b")
-    avl_tree.insert(1, "c")
-    print(avl_tree.tree_height())
-    # print(avl_tree.height)
-    print(avl_tree.get_keys_in_order())
-=======
-    # print(avl_tree)
->>>>>>> 93af2c7f90 (fixed the search functions and the hashmap data structure and how we get keys for each structure in main)
+    # avl_tree = AVLTreeIndex()
+    # avl_tree.insert(3, "a")
+    # avl_tree.insert(2, "b")
+    # avl_tree.insert(1, "c")
+    # print(avl_tree.tree_height())
+    # # print(avl_tree.height)
+    # print(avl_tree.get_keys_in_order())
     
     index_files(path, avl_tree)
     # Create a list of 100,000 random search terms
@@ -114,10 +104,6 @@ def main():
 
     # # Here, we are creating a sample binary search tree index 
     # # and sending it to the index_files function
-<<<<<<< HEAD
-    # bst_index = BinarySearchTreeIndex()    
-    # index_files(path, bst_index)
-=======
     bst_index = BinarySearchTreeIndex()    
     index_files(path, bst_index)
     all_terms = bst_index.get_keys_in_order() 
@@ -126,7 +112,6 @@ def main():
     searchtime(bst_index, search_terms)
 
 
->>>>>>> 93af2c7f90 (fixed the search functions and the hashmap data structure and how we get keys for each structure in main)
 
     # As a gut check, we are printing the keys that were added to the 
     # index in order. 
