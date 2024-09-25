@@ -139,27 +139,51 @@ class AVLTreeIndex(BinarySearchTreeIndex):
             current.add_value(value)
         # return current_node
 
+        # # Check balance and perform rotations if necessary
+        # balance = abs(self._height(current.left) - self._height(current.right))
+
+        # # Left-Left Case
+        # if balance > 1 and key < current.left.key:
+        #     return self._rotate_right(current)
+
+        # # Right-Right Case
+        # if balance > 1 and key > current.right.key:
+        #     return self._rotate_left(current)
+
+        # # Left Right Case
+        # if balance > 1 and current.left.key < key < current.key:
+        #     current.left = self._rotate_left(current.left)
+        #     return self._rotate_right(current)
+
+        # # Right Left Case
+        # if balance > 1 and current.key < key < current.right.key:
+        #     current.right = self._rotate_right(current.right)  # check if the variables are stated properly
+        #     return self._rotate_left(current)
+
+        # return current
+
+        # Update the height of the current node
         current.height = 1 + max(self._height(current.left), self._height(current.right))
 
-        # Check balance and perform rotations if necessary
-        balance = abs(self._height(current.left) - self._height(current.right))
+        # Check the balance factor
+        balance = self._height(current.left) - self._height(current.right)
 
         # Left-Left Case
         if balance > 1 and key < current.left.key:
             return self._rotate_right(current)
 
         # Right-Right Case
-        if balance > 1 and key > current.right.key:
+        if balance < -1 and key > current.right.key:
             return self._rotate_left(current)
 
-        # Left Right Case
-        if balance > 1 and current.left.key < key < current.key:
+        # Left-Right Case
+        if balance > 1 and key > current.left.key:
             current.left = self._rotate_left(current.left)
             return self._rotate_right(current)
 
-        # Right Left Case
-        if balance > 1 and current.key < key < current.right.key:
-            current.right = self._rotate_right(current.right)  # check if the variables are stated properly
+        # Right-Left Case
+        if balance < -1 and key < current.right.key:
+            current.right = self._rotate_right(current.right)
             return self._rotate_left(current)
 
         return current
@@ -182,15 +206,15 @@ class AVLTreeIndex(BinarySearchTreeIndex):
         else:
             self.root = self._insert_recursive(self.root, key, value)
 
-    # def _inorder_traversal(self, current: Optional[AVLNode], result: List[Any]) -> None:
-    #     if current is None:
-    #         return
+    def _inorder_traversal(self, current: Optional[AVLNode], result: List[Any]) -> None:
+        if current is None:
+            return
         
-    #     self._inorder_traversal(current.left, result)
-    #     result.append(current.key)
-    #     self._inorder_traversal(current.right, result)
+        self._inorder_traversal(current.left, result)
+        result.append(current.key)
+        self._inorder_traversal(current.right, result)
    
-    # def get_keys(self) -> List[Any]:
-    #     keys: List[Any] = [] 
-    #     self._inorder_traversal(self.root, keys)
-    #     return keys
+    def get_keys(self) -> List[Any]:
+        keys: List[Any] = [] 
+        self._inorder_traversal(self.root, keys)
+        return keys

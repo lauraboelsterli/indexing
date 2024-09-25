@@ -15,29 +15,41 @@ class HashMapIndex(AbstractIndex):
     #             self.hash_map[term].append(document_id) 
     #     else:
     #         self.hash_map[term] = [document_id]
-    def insert(self, term, document_id):
-        if term in self.hash_map:
-            if document_id not in self.hash_map[term]:
-                self.hash_map[term].append(document_id) 
-        else:
-            self.hash_map[term] = [document_id]
 
+    # def insert(self, term, document_id):
+    #     if term in self.hash_map:
+    #         if document_id not in self.hash_map[term]:
+    #             self.hash_map[term].append(document_id) 
+    #     else:
+    #         self.hash_map[term] = [document_id]
+    def insert(self, term, document_id):
+        if term not in self.hash_map:
+            self.hash_map[term] = set()  
+        self.hash_map[term].add(document_id)  
+
+
+    # def search(self, term):
+    #     return self.hash_map.get(term, [])
     def search(self, term):
-        return self.hash_map.get(term, [])
+        return list(self.hash_map.get(term, []))  # Return a list of document IDs
+
 
     def remove(self, term):
         if term in self.hash_map:
             del self.hash_map[term]
 
 
+    # def __iter__(self) -> Generator[Any, None, None]:
+    #         """
+    #         Returns an iterator over the terms (keys) in the hash map.
+    #         Yields each term (key) in the hash_map.
+    #         # """
+    #         # yield self.hash_map.keys()
+    #         for key in self.hash_map:
+    #             yield key 
     def __iter__(self) -> Generator[Any, None, None]:
-            """
-            Returns an iterator over the terms (keys) in the hash map.
-            Yields each term (key) in the hash_map.
-            # """
-            # yield self.hash_map.keys()
-            for key in self.hash_map:
-                yield key 
+        yield from self.hash_map
+
     
 # def insert(self, key: Any, value: Any) -> None:
 #         """
