@@ -83,7 +83,7 @@ def main():
     searchtime(hashmap, search_terms)
 
     # # for the avl tree
-    # avl_tree = AVLTreeIndex()
+    avl_tree = AVLTreeIndex()
     # avl_tree.insert(3, "a")
     # avl_tree.insert(2, "b")
     # avl_tree.insert(1, "c")
