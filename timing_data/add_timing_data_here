@@ -1,4 +1,4 @@
-HASHMAP:
+HASHMAP: depend on the case, the worst one can be O(n)
 - Time it takes to search for 100k terms using the hashmap: 562.5 ms = 0.56 s
 - Time it takes to search for 500k terms using the hashmap: 2515.625 ms = 2.52 s,  Took 3548174000 ns OR 3548.174 ms
 - for 5000000 words: 
@@ -14,7 +14,7 @@ UNSORTED LIST:
 - Time it takes to search for 500k terms using the unsorted list:
 - Time it takes to search for 1M terms using the unsorted list:
 
-AVL TREE:
+AVL TREE: takes O(log_n) in every case
 - Time it takes to search for 100k terms using the AVL tree: 328.125 ms = 0.33 s
 - Time it takes to search for 500k terms using the AVL tree: 1546.875 ms = 1.55 s, Took 1245780000 ns OR 1245.78 ms
 -for 5000000 words: 
@@ -26,3 +26,19 @@ AVL TREE:
 
 Function search_time took 23320089000 ns OR 23320.089 ms
 
+BST TREE:
+- Time it takes to search for 100k terms using the BST tree: 2439799 function calls (200001 primitive calls) in 1.108 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+2339798/100000    1.081    0.000    1.081    0.000 bst_index.py:58(_search_recursive)
+   100000    0.026    0.000    1.108    0.000 bst_index.py:164(search)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Function search_time took 1093750000 ns OR 1093.75 ms
+
+- Time it takes to search for 500k terms using the BST tree:
+
+# What to read: time complexity for search operations in hashmap vs avl tree (base case, average case, and the worst case)
