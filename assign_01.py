@@ -37,10 +37,24 @@ def index_files(path: str, index: AbstractIndex) -> None:
 # def loopy_loop():
 #     total = sum((x for x in range(0, 1000000)))
 
+import cProfile
+
 @timer
 def search_time(structure, search_terms):
+    profiler = cProfile.Profile()
+    profiler.enable()
+    
     for term in search_terms:
-        structure.search(term)
+        _ = structure.search(term)
+    
+    profiler.disable()
+    profiler.print_stats(sort='time')
+
+
+# @timer
+# def search_time(structure, search_terms):
+#     for term in search_terms:
+#         structure.search(term)
 
 
 def main():
@@ -48,7 +62,7 @@ def main():
         "USFinancialNewsArticles-preprocessed/January2018", "USFinancialNewsArticles-preprocessed/March2018",
         "USFinancialNewsArticles-preprocessed/May2018"]
     # path = ["USFinancialNewsArticles-preprocessed/April2018"]
-    # # path = ["test_data/folder1"]
+    # path = ["test_data/folder1"]
     # #
     # # for the unsorted list (currently using time to measure how long did it take)
     # unsorted = UnsortedList()
@@ -61,20 +75,20 @@ def main():
     # hashmap = HashMapIndex()
     # index_files(path, hashmap)
     # all_terms = [term for term in hashmap.hash_map.keys()]
-    # search_terms = random.choices(all_terms, k=500000)
+    # search_terms = random.choices(all_terms, k=5000000)
     # search_time(hashmap, search_terms)
 
     # for the avl tree
     avl_tree = AVLTreeIndex()
-    # avl_tree.insert(3, "a")
-    # avl_tree.insert(2, "b")
-    # avl_tree.insert(1, "c")
-    # print(avl_tree.tree_height())
-    # print(avl_tree.get_keys_in_order())
+    # # # avl_tree.insert(3, "a")
+    # # # avl_tree.insert(2, "b")
+    # # # avl_tree.insert(1, "c")
+    # # # print(avl_tree.tree_height())
+    # # # print(avl_tree.get_keys_in_order())
 
     index_files(path, avl_tree)
     all_terms = avl_tree.get_keys()
-    search_terms = random.choices(all_terms, k=500000)
+    search_terms = random.choices(all_terms, k=5000000)
     search_time(avl_tree, search_terms)
 
     # # # Here, we are creating a sample binary search tree index
