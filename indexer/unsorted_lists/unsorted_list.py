@@ -12,14 +12,6 @@ class UnsortedList(AbstractIndex):
         super().__init__()
         self.unsorted_list = []
 
-    # def add(self, term, document_id):
-    #     for i in range(len(self.unsorted_list)):
-    #         if self.unsorted_list[i][0] == term:
-    #             # indexing should be [i][1] instead, right? -- note by laura 
-    #             if document_id not in self.unsorted_list[i][1]:
-    #                 # self.unsorted_list[1][1].append(document_id)
-    #                 self.unsorted_list[i][1].append(document_id)
-    #             return 
     def insert(self, term, document_id):
         for i in range(len(self.unsorted_list)):
             if self.unsorted_list[i][0] == term:
@@ -46,7 +38,6 @@ class UnsortedList(AbstractIndex):
         Returns an iterator over the terms (keys) in the hash map.
         Yields each term (key) in the hash_map.
         # """
-        # yield self.hash_map.keys()
         for item in self.unsorted_list:
             yield item 
 
