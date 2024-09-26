@@ -1,13 +1,11 @@
 HASHMAP:
 - Time it takes to search for 100k terms using the hashmap: 562.5 ms = 0.56 s
 - Time it takes to search for 500k terms using the hashmap: 2515.625 ms = 2.52 s,  Took 3548174000 ns OR 3548.174 ms
-- for 5000000: Took 33421760000 ns OR 33421.76 ms
+- for 5000000 words: 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
   5000000   28.963    0.000   32.998    0.000 hash_map.py:15(search)
   5000000    4.035    0.000    4.035    0.000 {method 'get' of 'dict' objects}
         1    0.001    0.001    0.001    0.001 {method 'disable' of '_lsprof.Profiler' objects}
-
-
 Function search_time took 32579350000 ns OR 32579.35 ms
 - Time it takes to search for 1M terms using the hashmap:
 
@@ -19,5 +17,12 @@ UNSORTED LIST:
 AVL TREE:
 - Time it takes to search for 100k terms using the AVL tree: 328.125 ms = 0.33 s
 - Time it takes to search for 500k terms using the AVL tree: 1546.875 ms = 1.55 s, Took 1245780000 ns OR 1245.78 ms
--for 5000000: {} Took 12884117000 ns OR 12884.117 ms
+-for 5000000 words: 
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+86998760/5000000   22.045    0.000   22.045    0.000 avl_index.py:58(_search_recursive)
+  5000000    0.783    0.000   22.828    0.000 avl_index.py:164(search)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Function search_time took 23320089000 ns OR 23320.089 ms
 
