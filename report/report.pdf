@@ -1,0 +1,28 @@
+In this project, four data structures were implemented and tested for search time efficiency. 
+Five folders of data were processed and tested with increasing search terms amounts, to see how 
+the time complexity of each data structure performed on a large-scale. When implementing each 
+structure, we included an insert, search, and remove functionality. For the trees, the functionality 
+and structure differ slightly different as rotation functions were also included as part of the insert 
+functionality and a balance checker is implemented recursively to trigger the rotations. For the bst tree, 
+a similar process was approached for the bst tree, without the rotation functionality, stacking onto the height 
+of the tree, and occasionally balancing, as we recursively continue to insert. With the hashmap the insert 
+function acted as a dictionary, making sure the terms are part of a set (words) and then adding document ids 
+to every time the word showed up in another document. Lastly, for the unsorted list we initialized a python 
+list, and append document id to a tuple of words (the key) that have been repeated. For searching each structure 
+goes through a different process, and on a larger scale, some have proven to be more efficient than others. For the 
+timing of the searches, we used a timer decorator for the search function we call in assign_01.py. We set a certain 
+limit, k, of the number of words we want to search (randomized), and after indexing all files into the data structure, 
+then record the search time in the search_time function with the timer wrapper applied. After running searches of 
+different sizes on all the structures, the most efficient structure, as the size of the search size increased was the 
+avl tree. Overall, it was the fastest (even with smaller searches (100k)). This makes sense as the avl tree’s worst-case 
+and best-case time complexity is O(log n), making it consistently fast. Structurally, this is due to the height of the 
+tree being short, which leads to faster search times through the indexed files. The second fastest search time came from 
+the hashmap structure. As search size increases the discrepancy between the time complexity of the avl tree and the hashmap 
+start increasing, which makes sense as the hashmap’s time complexity is O(1) best-case and O(n) worst case. The bst tree 
+comes in third place and is significantly slower than both the hashmap and the avl tree. The bst tree’s time complexity 
+is around O(logn) best case and O(n) worst case, which explains it’s inefficient performance as search size increases. 
+The unsorted list, proved to be the most inefficient structure, as part of the fact that it take significantly longer to 
+index, and the search time for a unsorted list is on average O(n) and best-case O(1), though O(1) is unlikely as search 
+size increases as unsorted lists requires an iteration through every element in the list for searching. Overall, the most 
+efficient data structure we implemented was the avl tree, and makes sense due to the time complexity of the search time. 
+Hashmap is pretty efficient, but the rest of the structures, bst and unsorted proved to be the least. 
