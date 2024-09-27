@@ -46,8 +46,8 @@ Function search_time took 6593750000 ns OR 6593.75 ms
 
 - Time it takes to search for 5M terms using the AVL tree: Function search_time took 23320089000 ns OR 23320.089 ms
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-86998760/5000000   22.045    0.000   22.045    0.000 avl_index.py:58(_search_recursive)
-  5000000    0.783    0.000   22.828    0.000 avl_index.py:164(search)
+86998760/5000000   22.045    0.000   22.045    0.000 bst_index.py:58(_search_recursive)
+  5000000    0.783    0.000   22.828    0.000 bst_index.py:164(search)
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 
 
