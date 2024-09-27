@@ -66,43 +66,43 @@ def main():
     # path = ["test_data/folder1"]
     # #
     # for the unsorted list (currently using time to measure how long did it take)
-    unsorted = UnsortedList()
-    index_files(path, unsorted)  # get a data structure with every word
-    all_terms = [term for term, _ in unsorted.unsorted_list]  # create a list of 100,000 random search terms
-    search_terms = random.choices(all_terms, k=1000)
-    search_time(unsorted, search_terms)
+    # unsorted = UnsortedList()
+    # index_files(path, unsorted)  # get a data structure with every word
+    # all_terms = [term for term, _ in unsorted.unsorted_list]  # create a list of 100,000 random search terms
+    # search_terms = random.choices(all_terms, k=1000)
+    # search_time(unsorted, search_terms)
 
     # for the hashmap
     # hashmap = HashMapIndex()
     # index_files(path, hashmap)
     # all_terms = [term for term in hashmap.hash_map.keys()]
-    # search_terms = random.choices(all_terms, k=5000000)
+    # search_terms = random.choices(all_terms, k=1000000)
     # search_time(hashmap, search_terms)
 
     # for the avl tree
     # avl_tree = AVLTreeIndex()
-    # # avl_tree.insert(3, "a")
-    # # avl_tree.insert(2, "b")
-    # # avl_tree.insert(1, "c")
-    # # print(avl_tree.tree_height())
-    # # print(avl_tree.get_keys_in_order())
-    #
+    # avl_tree.insert(3, "a")
+    # avl_tree.insert(2, "b")
+    # avl_tree.insert(1, "c")
+    # print(avl_tree.tree_height())
+    # print(avl_tree.get_keys_in_order())
+
     # index_files(path, avl_tree)
     # all_terms = avl_tree.get_keys()
-    # search_terms = random.choices(all_terms, k=5000000)
+    # search_terms = random.choices(all_terms, k=1000000)
     # search_time(avl_tree, search_terms)
 
-    # # # Here, we are creating a sample binary search tree index
-    # # # and sending it to the index_files function
-    # bst_index = BinarySearchTreeIndex()
-    # index_files(path, bst_index)
-    # all_terms = bst_index.get_keys_in_order()
-    # search_terms = random.choices(all_terms, k=100000)
-    #
-    # search_time(bst_index, search_terms)
+    # # Here, we are creating a sample binary search tree index
+    # # and sending it to the index_files function
+    bst_index = BinarySearchTreeIndex()
+    index_files(path, bst_index)
+    all_terms = bst_index.get_keys_in_order()
+    search_terms = random.choices(all_terms, k=1000000)
 
-    # As a gut check, we are printing the keys that were added to the 
-    # index in order. 
+    search_time(bst_index, search_terms)
+
+    # As a gut check, we are printing the keys that were added to the
+    # index in order.
     # print(bst_index.get_keys_in_order())
 
 

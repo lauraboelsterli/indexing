@@ -1,34 +1,63 @@
 HASHMAP: depend on the case, the worst one can be O(n)
 - Time it takes to search for 100k terms using the hashmap: 562.5 ms = 0.56 s
 - Time it takes to search for 500k terms using the hashmap: 2515.625 ms = 2.52 s,  Took 3548174000 ns OR 3548.174 ms
-- for 5000000 words: 
+- Time it takes to search for 1M terms using the hashmap: 2000001 function calls in 7.784 seconds. Function search_time
+took 8031250000 ns OR 8031.25 ms
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  1000000    7.151    0.000    7.784    0.000 hash_map.py:15(search)
+  1000000    0.633    0.000    0.633    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+- Time it takes to search for 5M terms using the hashmap: Function search_time took 32579350000 ns OR 32579.35 ms
+
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
   5000000   28.963    0.000   32.998    0.000 hash_map.py:15(search)
   5000000    4.035    0.000    4.035    0.000 {method 'get' of 'dict' objects}
         1    0.001    0.001    0.001    0.001 {method 'disable' of '_lsprof.Profiler' objects}
-Function search_time took 32579350000 ns OR 32579.35 ms
-- Time it takes to search for 1M terms using the hashmap:
+
+
+
 
 UNSORTED LIST:
 - Time it takes to search for 100k terms using the unsorted list:
 - Time it takes to search for 500k terms using the unsorted list:
 - Time it takes to search for 1M terms using the unsorted list:
 
+
+
+
+
 AVL TREE: takes O(log_n) in every case
 - Time it takes to search for 100k terms using the AVL tree: 328.125 ms = 0.33 s
 - Time it takes to search for 500k terms using the AVL tree: 1546.875 ms = 1.55 s, Took 1245780000 ns OR 1245.78 ms
--for 5000000 words: 
+- Time it takes to search for 1M terms using the AVL tree: 18345778 function calls (2000001 primitive calls) in 9.913 seconds
+Function search_time took 6593750000 ns OR 6593.75 ms
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+17345777/1000000    9.617    0.000    9.617    0.000 bst_index.py:58(_search_recursive)
+  1000000    0.296    0.000    9.913    0.000 bst_index.py:164(search)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+- Time it takes to search for 5M terms using the AVL tree: Function search_time took 23320089000 ns OR 23320.089 ms
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
 86998760/5000000   22.045    0.000   22.045    0.000 avl_index.py:58(_search_recursive)
   5000000    0.783    0.000   22.828    0.000 avl_index.py:164(search)
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 
 
-Function search_time took 23320089000 ns OR 23320.089 ms
+
+
+
 
 BST TREE:
-- Time it takes to search for 100k terms using the BST tree: 2439799 function calls (200001 primitive calls) in 1.108 seconds
-
+- Time it takes to search for 100k terms using the BST tree: 2439799 function calls (200001 primitive calls) in 1.108 seconds.
+Function search_time took 1093750000 ns OR 1093.75 ms
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
@@ -37,8 +66,20 @@ BST TREE:
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 
 
-Function search_time took 1093750000 ns OR 1093.75 ms
+- Time it takes to search for 1M terms using the BST tree: 24395212 function calls (2000001 primitive calls) in 11.565 seconds
+Function search_time took 9703125000 ns OR 9703.125 ms
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+23395211/1000000   11.274    0.000   11.274    0.000 bst_index.py:58(_search_recursive)
+  1000000    0.292    0.000   11.565    0.000 bst_index.py:164(search)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
 
 - Time it takes to search for 500k terms using the BST tree:
+
+
+
 
 # What to read: time complexity for search operations in hashmap vs avl tree (base case, average case, and the worst case)
