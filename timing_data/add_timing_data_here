@@ -22,8 +22,9 @@ AVL TREE: takes O(log_n) in every case
 
 BST TREE:
 - Time it takes to search for 100k terms using the BST tree: Function search_time took 1093750000 ns OR 1093.75 ms
-- Time it takes to search for 1M terms using the BST tree: Function search_time took 9703125000 ns OR 9703.125 ms
 - Time it takes to search for 500k terms using the BST tree: 
+- Time it takes to search for 1M terms using the BST tree: Function search_time took 9703125000 ns OR 9703.125 ms
+
 
 
 

@@ -2,5 +2,5 @@ data structure, 100k search terms, 500k search terms, 1M search terms
 hashmap, 562.5 ms = 0.56 s, 3548174000 ns OR 3548.174 ms, 8031250000 ns OR 8031.25 ms
 unsorted list, 
 avl tree, 328.125 ms = 0.33 s, 1245780000 ns OR 1245.78 ms, 6593750000 ns OR 6593.75 ms
-bst tree, 1093750000 ns OR 1093.75 ms, 9703125000 ns OR 9703.125 ms, 
+bst tree, 1093750000 ns OR 1093.75 ms, missing, 9703125000 ns OR 9703.125 ms, 
 
