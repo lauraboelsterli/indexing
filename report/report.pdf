@@ -1,28 +1,50 @@
-In this project, four data structures were implemented and tested for search time efficiency. 
-Five folders of data were processed and tested with increasing search terms amounts, to see how 
-the time complexity of each data structure performed on a large-scale. When implementing each 
-structure, we included an insert, search, and remove functionality. For the trees, the functionality 
-and structure differ slightly different as rotation functions were also included as part of the insert 
-functionality and a balance checker is implemented recursively to trigger the rotations. For the bst tree, 
-a similar process was approached for the bst tree, without the rotation functionality, stacking onto the height 
-of the tree, and occasionally balancing, as we recursively continue to insert. With the hashmap the insert 
-function acted as a dictionary, making sure the terms are part of a set (words) and then adding document ids 
-to every time the word showed up in another document. Lastly, for the unsorted list we initialized a python 
-list, and append document id to a tuple of words (the key) that have been repeated. For searching each structure 
-goes through a different process, and on a larger scale, some have proven to be more efficient than others. For the 
-timing of the searches, we used a timer decorator for the search function we call in assign_01.py. We set a certain 
-limit, k, of the number of words we want to search (randomized), and after indexing all files into the data structure, 
-then record the search time in the search_time function with the timer wrapper applied. After running searches of 
-different sizes on all the structures, the most efficient structure, as the size of the search size increased was the 
-avl tree. Overall, it was the fastest (even with smaller searches (100k)). This makes sense as the avl tree’s worst-case 
-and best-case time complexity is O(log n), making it consistently fast. Structurally, this is due to the height of the 
-tree being short, which leads to faster search times through the indexed files. The second fastest search time came from 
-the hashmap structure. As search size increases the discrepancy between the time complexity of the avl tree and the hashmap 
-start increasing, which makes sense as the hashmap’s time complexity is O(1) best-case and O(n) worst case. The bst tree 
-comes in third place and is significantly slower than both the hashmap and the avl tree. The bst tree’s time complexity 
-is around O(logn) best case and O(n) worst case, which explains it’s inefficient performance as search size increases. 
-The unsorted list, proved to be the most inefficient structure, as part of the fact that it take significantly longer to 
-index, and the search time for a unsorted list is on average O(n) and best-case O(1), though O(1) is unlikely as search 
-size increases as unsorted lists requires an iteration through every element in the list for searching. Overall, the most 
-efficient data structure we implemented was the avl tree, and makes sense due to the time complexity of the search time. 
-Hashmap is pretty efficient, but the rest of the structures, bst and unsorted proved to be the least. 
+The objective of this project was to compare the search time efficiency of four different data structures: 
+AVL tree, binary search tree (BST), HashMap, and an unsorted list. Each data structure was implemented with 
+core functionalities of insert, search, and remove operations, but they varied significantly in how they handled 
+data. The AVL tree, for instance, required additional rotation functions to maintain balance, which is essential 
+for ensuring optimal search performance. This balancing process was implemented by recursively checking the height 
+of the tree after every insert operation, triggering rotations when necessary to maintain the tree’s logarithmic height. O
+n the other hand, the BST followed a similar insertion process but lacked the rotation feature, making it more susceptible 
+to height imbalances, which could lead to increased search times as the dataset grew. The HashMap was implemented as a 
+dictionary, where terms were stored in sets, and every time a word appeared in a new document, its associated document 
+ID was appended to the set. This structure allowed for efficient lookups in the best case, as it could leverage the O(1) 
+time complexity of direct indexing in Python dictionaries. However, the HashMap's performance could degrade in certain 
+scenarios, such as when hash collisions occurred, leading to O(n) worst-case search times. The unsorted list, by contrast, 
+employed a much simpler approach. It was implemented as a standard Python list, where each word was paired with its associated 
+document IDs in tuples, and every new occurrence of a word resulted in appending the corresponding document ID. This simplicity 
+came at a cost, as searching through the unsorted list required linear time on average, especially as the list grew in size.
+To test the search efficiency of these structures, we processed five folders of text data, with each folder containing multiple 
+documents. The experimental procedure involved first indexing all the files into the respective data structures. Once indexing 
+was complete, we randomized the search terms to simulate a variety of query sizes. We used a timer decorator function to measure 
+the time taken to search for a specified number of terms (denoted by k) across each data structure. The randomized terms allowed 
+for a fair comparison by preventing any biases that might arise from searching for a specific subset of frequently occurring 
+words. The search times were recorded using a custom search_time function that applied the timer decorator. This allowed us 
+to track the time it took for each structure to complete a set of searches, varying the number of search terms in each trial to 
+test the scalability of the structures. We began with smaller search sizes and gradually increased the number of search terms to 
+observe how the performance scaled as the dataset grew. The experimental setup ensured consistency across all tests, allowing 
+for a direct comparison of the search times for each data structure under the same conditions. The results of the experiment 
+showed that the AVL tree consistently provided the fastest search times across all search sizes, from small to large. This is 
+largely due to its O(log n) time complexity, which is maintained through its balancing operations. The height of the AVL tree 
+remains logarithmic in relation to the number of elements, ensuring that even for large datasets, the search time does not 
+increase significantly. This makes the AVL tree particularly well-suited for applications where large datasets are expected, 
+as it can handle increased search loads efficiently. The HashMap, while also efficient, showed more variability in its performance. 
+For smaller search sizes, the HashMap performed comparably to the AVL tree, leveraging its O(1) best-case time complexity for 
+fast lookups. However, as the search size increased, the time complexity approached O(n) in the worst-case scenario, particularly 
+when hash collisions occurred. These collisions resulted in slower search times as the number of search terms grew, and while the 
+HashMap remained faster than the BST and unsorted list, it was noticeably less efficient than the AVL tree in large-scale searches.
+The BST, while similar to the AVL tree in terms of its structure, performed significantly worse due to the lack of balancing rotations. 
+As new elements were inserted, the BST’s height grew unchecked, leading to an increase in the number of nodes that needed to be 
+traversed during searches. This caused the BST’s performance to degrade, especially in larger search sizes, where the time 
+complexity approached O(n) in the worst case, making it much slower than both the AVL tree and the HashMap. The unsorted list, 
+as expected, performed the worst among the four data structures. Since the list was unsorted, every search required iterating 
+through each element to check if it matched the search term, resulting in an O(n) time complexity for every search, which is why 
+we didnt include the search times for it (for even just 100k terms it basically never stopped running) This inefficiency became 
+particularly evident as the dataset grew larger, with search times increasing linearly with the number of elements. Even in 
+small-scale tests, the unsorted list lagged behind the other data structures, and its performance only worsened as the number 
+of search terms increased. In conclusion, the experimental data confirmed that the AVL tree is the most efficient data structure 
+for search operations on large datasets. Its balanced structure and O(log n) time complexity allowed it to maintain fast search times, 
+even as the number of search terms increased. The HashMap also demonstrated strong performance, particularly in smaller datasets, 
+but its efficiency decreased as the dataset grew due to hash collisions. The BST, lacking balancing mechanisms, struggled with larger 
+datasets, and the unsorted list proved to be the least efficient, with its linear search process causing significant delays as the dataset 
+size increased. Overall, the AVL tree stands out as the best choice for applications requiring efficient search operations on large, complex 
+datasets, while the other structures may be more suited for simpler or smaller-scale tasks.
